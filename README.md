@@ -9,6 +9,9 @@ workflows pull transformer weights from HuggingFace on first run,
 which would otherwise break Sanctum's "no runtime network calls"
 invariant.
 
+![Example Results](/assets/heatmap.png)
+
+
 ## Layout
 
 ```
