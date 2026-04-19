@@ -1,0 +1,1387 @@
+{
+  "case": {
+    "key": "gliner_small_v21",
+    "hf_id": "urchade/gliner_small-v2.1",
+    "family": "gliner",
+    "params_m": 166,
+    "licence": "Apache-2.0",
+    "notes": "Smallest GLiNER; good CPU baseline",
+    "enabled": true
+  },
+  "elapsed_seconds": 221.07731258399963,
+  "predictions": {
+    "attorney_client_email.txt": [
+      {
+        "entity_type": "PERSON",
+        "start": 6,
+        "end": 18,
+        "score": 0.7781292796134949,
+        "text_span": "Denise Jones",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 43,
+        "end": 55,
+        "score": 0.9608830213546753,
+        "text_span": "Devon Flores",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 83,
+        "end": 97,
+        "score": 0.7874159216880798,
+        "text_span": "April 06, 2026",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 141,
+        "end": 153,
+        "score": 0.9402318000793457,
+        "text_span": "Devon Flores",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 157,
+        "end": 168,
+        "score": 0.9317669868469238,
+        "text_span": "Brenda Hall",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 234,
+        "end": 246,
+        "score": 0.9492562413215637,
+        "text_span": "Devon Flores",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 447,
+        "end": 458,
+        "score": 0.936147928237915,
+        "text_span": "Brenda Hall",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 547,
+        "end": 558,
+        "score": 0.9044426679611206,
+        "text_span": "Brenda Hall",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 563,
+        "end": 577,
+        "score": 0.675347626209259,
+        "text_span": "April 17, 2026",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 656,
+        "end": 668,
+        "score": 0.7138481140136719,
+        "text_span": "May 30, 2026",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 1078,
+        "end": 1098,
+        "score": 0.5400120615959167,
+        "text_span": "001-509-967-0546x688",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 1102,
+        "end": 1119,
+        "score": 0.4257153570652008,
+        "text_span": "amy60@example.org",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1137,
+        "end": 1149,
+        "score": 0.79632568359375,
+        "text_span": "Denise Jones",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1161,
+        "end": 1189,
+        "score": 0.6808080077171326,
+        "text_span": "Lewis and Perry & Associates",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      }
+    ],
+    "internal_memo.txt": [
+      {
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 11,
+        "score": 0.47405189275741577,
+        "text_span": "White-Green",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 50,
+        "end": 62,
+        "score": 0.9536007046699524,
+        "text_span": "Cameron Dean",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 91,
+        "end": 104,
+        "score": 0.8948500752449036,
+        "text_span": "James Elliott",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 114,
+        "end": 133,
+        "score": 0.6586242914199829,
+        "text_span": "Product Development",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 138,
+        "end": 151,
+        "score": 0.893492579460144,
+        "text_span": "Marvin Taylor",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 183,
+        "end": 198,
+        "score": 0.9475381970405579,
+        "text_span": "Jennifer Martin",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 230,
+        "end": 244,
+        "score": 0.7722466588020325,
+        "text_span": "March 31, 2026",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 467,
+        "end": 482,
+        "score": 0.434666246175766,
+        "text_span": "Operations team",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 491,
+        "end": 503,
+        "score": 0.9339609146118164,
+        "text_span": "Cameron Dean",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 622,
+        "end": 640,
+        "score": 0.5235349535942078,
+        "text_span": "logistics division",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 680,
+        "end": 699,
+        "score": 0.6748237013816833,
+        "text_span": "Product Development",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 707,
+        "end": 720,
+        "score": 0.9211350083351135,
+        "text_span": "James Elliott",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 856,
+        "end": 869,
+        "score": 0.8895891904830933,
+        "text_span": "Marvin Taylor",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1045,
+        "end": 1059,
+        "score": 0.5643589496612549,
+        "text_span": "April 18, 2026",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1080,
+        "end": 1092,
+        "score": 0.9310267567634583,
+        "text_span": "Cameron Dean",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 1176,
+        "end": 1185,
+        "score": 0.6176401376724243,
+        "text_span": "ext. 4764",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 1213,
+        "end": 1222,
+        "score": 0.46473509073257446,
+        "text_span": "ext. 8235",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1235,
+        "end": 1250,
+        "score": 0.9264890551567078,
+        "text_span": "Jennifer Martin",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      }
+    ],
+    "max_density_pii.txt": [
+      {
+        "entity_type": "PERSON",
+        "start": 25,
+        "end": 46,
+        "score": 0.8152948021888733,
+        "text_span": "Jonathan R. Whitfield",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "CREDIT_CARD",
+        "start": 48,
+        "end": 82,
+        "score": 0.4186307191848755,
+        "text_span": "Social Security Number 583-29-4710",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 92,
+        "end": 106,
+        "score": 0.9149095416069031,
+        "text_span": "March 15, 1987",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 120,
+        "end": 142,
+        "score": 0.7535442113876343,
+        "text_span": "4201 Maple Creek Drive",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 144,
+        "end": 157,
+        "score": 0.7572397589683533,
+        "text_span": "Apartment 12B",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 159,
+        "end": 165,
+        "score": 0.4011792838573456,
+        "text_span": "Austin",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 167,
+        "end": 169,
+        "score": 0.41300469636917114,
+        "text_span": "TX",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 203,
+        "end": 217,
+        "score": 0.44092005491256714,
+        "text_span": "(512) 555-0147",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 239,
+        "end": 250,
+        "score": 0.47317951917648315,
+        "text_span": "j.whitfield",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 298,
+        "end": 317,
+        "score": 0.932395339012146,
+        "text_span": "NexaGen Corporation",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "IBAN_CODE",
+        "start": 454,
+        "end": 481,
+        "score": 0.7349781394004822,
+        "text_span": "IBAN DE89370400440532013000",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "IP_ADDRESS",
+        "start": 560,
+        "end": 570,
+        "score": 0.5797752737998962,
+        "text_span": "IP address",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "IP_ADDRESS",
+        "start": 571,
+        "end": 585,
+        "score": 0.8549424409866333,
+        "text_span": "192.168.14.203",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      }
+    ],
+    "zero_pii_technical.txt": [],
+    "bank_statement.txt": [
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 0,
+        "end": 25,
+        "score": 0.5544103980064392,
+        "text_span": "Hickman Ltd National Bank",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 69,
+        "end": 81,
+        "score": 0.9297311305999756,
+        "text_span": "Sherri Baker",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 115,
+        "end": 132,
+        "score": 0.5126532912254333,
+        "text_span": "New Stephanie, NC",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "US_BANK_NUMBER",
+        "start": 155,
+        "end": 173,
+        "score": 0.4358885884284973,
+        "text_span": "TKPA15430391171822",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 218,
+        "end": 228,
+        "score": 0.46381354331970215,
+        "text_span": "04/01/2026",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 521,
+        "end": 547,
+        "score": 0.5367593169212341,
+        "text_span": "Harris, Collins and Carney",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 594,
+        "end": 615,
+        "score": 0.49453526735305786,
+        "text_span": "Brooks, Lam and Hayes",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 667,
+        "end": 677,
+        "score": 0.8307700157165527,
+        "text_span": "Walker LLC",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 740,
+        "end": 756,
+        "score": 0.8314632773399353,
+        "text_span": "Chapman and Sons",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 813,
+        "end": 838,
+        "score": 0.6793990731239319,
+        "text_span": "Robinson, Jones and Welch",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      }
+    ],
+    "invoice.txt": [
+      {
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 30,
+        "score": 0.5182927250862122,
+        "text_span": "Jenkins-Shields",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 37,
+        "end": 50,
+        "score": 0.8507140278816223,
+        "text_span": "Matthew Lucas",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 83,
+        "end": 99,
+        "score": 0.6095322966575623,
+        "text_span": "North Deniseside",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 101,
+        "end": 109,
+        "score": 0.5671315789222717,
+        "text_span": "MP 02435",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 137,
+        "end": 151,
+        "score": 0.6941314935684204,
+        "text_span": "gallowayjoseph",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 169,
+        "end": 186,
+        "score": 0.6876698732376099,
+        "text_span": "Henderson-Bernard",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 193,
+        "end": 207,
+        "score": 0.8759344816207886,
+        "text_span": "Kristi Higgins",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 229,
+        "end": 240,
+        "score": 0.43755200505256653,
+        "text_span": "North Susan",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 242,
+        "end": 250,
+        "score": 0.41714563965797424,
+        "text_span": "CO 24857",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "US_BANK_NUMBER",
+        "start": 268,
+        "end": 277,
+        "score": 0.46806618571281433,
+        "text_span": "INV-18981",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 292,
+        "end": 306,
+        "score": 0.8726565837860107,
+        "text_span": "March 28, 2026",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 317,
+        "end": 329,
+        "score": 0.9128109216690063,
+        "text_span": "May 15, 2026",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 877,
+        "end": 905,
+        "score": 0.7482787370681763,
+        "text_span": "First National Business Bank",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "IBAN_CODE",
+        "start": 912,
+        "end": 934,
+        "score": 0.5745666027069092,
+        "text_span": "GB37HMDS39909169985435",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 954,
+        "end": 966,
+        "score": 0.8274637460708618,
+        "text_span": "May 15, 2026",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      }
+    ],
+    "offer_letter.txt": [
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 0,
+        "end": 17,
+        "score": 0.9921405911445618,
+        "text_span": "Chambers and Sons",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 18,
+        "end": 35,
+        "score": 0.46384161710739136,
+        "text_span": "03791 Perry Roads",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 37,
+        "end": 49,
+        "score": 0.7249459624290466,
+        "text_span": "Lake Heather",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 61,
+        "end": 75,
+        "score": 0.5975464582443237,
+        "text_span": "April 08, 2026",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 77,
+        "end": 90,
+        "score": 0.9741370677947998,
+        "text_span": "Mary Campbell",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 97,
+        "end": 109,
+        "score": 0.5535125732421875,
+        "text_span": "Angela Vista",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 111,
+        "end": 128,
+        "score": 0.444003164768219,
+        "text_span": "South Dennismouth",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 130,
+        "end": 132,
+        "score": 0.48723918199539185,
+        "text_span": "TN",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 145,
+        "end": 158,
+        "score": 0.9670519232749939,
+        "text_span": "Mary Campbell",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 174,
+        "end": 191,
+        "score": 0.9860357046127319,
+        "text_span": "Chambers and Sons",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 466,
+        "end": 476,
+        "score": 0.9730134606361389,
+        "text_span": "Lisa Davis",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 508,
+        "end": 520,
+        "score": 0.8522939682006836,
+        "text_span": "May 06, 2026",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 995,
+        "end": 1013,
+        "score": 0.5554137825965881,
+        "text_span": "pgreen@example.net",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 1028,
+        "end": 1043,
+        "score": 0.6030741930007935,
+        "text_span": "+1-495-979-8687",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1105,
+        "end": 1115,
+        "score": 0.9835016131401062,
+        "text_span": "Lisa Davis",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1135,
+        "end": 1152,
+        "score": 0.9888760447502136,
+        "text_span": "Chambers and Sons",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1193,
+        "end": 1206,
+        "score": 0.9706307053565979,
+        "text_span": "Mary Campbell",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      }
+    ],
+    "resume.txt": [
+      {
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12,
+        "score": 0.8390089869499207,
+        "text_span": "Victor Baker",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 44,
+        "end": 59,
+        "score": 0.6206668615341187,
+        "text_span": "South Elizabeth",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 70,
+        "end": 84,
+        "score": 0.5644735097885132,
+        "text_span": "carlsonmichael",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 121,
+        "end": 129,
+        "score": 0.4348844885826111,
+        "text_span": "linkedin",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 137,
+        "end": 149,
+        "score": 0.5923483967781067,
+        "text_span": "victor-baker",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 513,
+        "end": 535,
+        "score": 0.518598735332489,
+        "text_span": "Bass, Torres and Clark",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 538,
+        "end": 550,
+        "score": 0.6930053234100342,
+        "text_span": "January 2025",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 869,
+        "end": 892,
+        "score": 0.5440824031829834,
+        "text_span": "Orr, Gilbert and Turner",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 895,
+        "end": 908,
+        "score": 0.5074504017829895,
+        "text_span": "December 2020",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 911,
+        "end": 921,
+        "score": 0.6164491772651672,
+        "text_span": "April 2023",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1264,
+        "end": 1299,
+        "score": 0.6996549963951111,
+        "text_span": "Lawson, Morris and Ramos University",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1312,
+        "end": 1322,
+        "score": 0.6047153472900391,
+        "text_span": "March 2018",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      }
+    ],
+    "engagement_letter.txt": [
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 0,
+        "end": 14,
+        "score": 0.9424806237220764,
+        "text_span": "Gray-Mayo, LLP",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 32,
+        "end": 41,
+        "score": 0.599392831325531,
+        "text_span": "Carlshire",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 43,
+        "end": 51,
+        "score": 0.537319004535675,
+        "text_span": "FM 94599",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 71,
+        "end": 85,
+        "score": 0.4743521809577942,
+        "text_span": "April 09, 2026",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 87,
+        "end": 103,
+        "score": 0.9663864970207214,
+        "text_span": "Kimberly Sanchez",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 141,
+        "end": 149,
+        "score": 0.4983421862125397,
+        "text_span": "NY 65187",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 156,
+        "end": 172,
+        "score": 0.9682939052581787,
+        "text_span": "Kimberly Sanchez",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 199,
+        "end": 213,
+        "score": 0.9472259879112244,
+        "text_span": "Gray-Mayo, LLP",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 625,
+        "end": 638,
+        "score": 0.9344955682754517,
+        "text_span": "Melinda Jones",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 704,
+        "end": 717,
+        "score": 0.917482852935791,
+        "text_span": "Melinda Jones",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 730,
+        "end": 749,
+        "score": 0.5728476643562317,
+        "text_span": "tasha01@example.net",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 1104,
+        "end": 1123,
+        "score": 0.5568561553955078,
+        "text_span": "kayla51@example.com",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1264,
+        "end": 1277,
+        "score": 0.9550520777702332,
+        "text_span": "Melinda Jones",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1287,
+        "end": 1301,
+        "score": 0.9206483364105225,
+        "text_span": "Gray-Mayo, LLP",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1351,
+        "end": 1367,
+        "score": 0.9687684774398804,
+        "text_span": "Kimberly Sanchez",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      }
+    ],
+    "nda_contract.txt": [
+      {
+        "entity_type": "DATE_TIME",
+        "start": 96,
+        "end": 113,
+        "score": 0.7585479617118835,
+        "text_span": "December 22, 2025",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 163,
+        "end": 175,
+        "score": 0.9314868450164795,
+        "text_span": "Allison Hill",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 197,
+        "end": 226,
+        "score": 0.9294567108154297,
+        "text_span": "Miller, Henderson and Johnson",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 262,
+        "end": 282,
+        "score": 0.5838866829872131,
+        "text_span": "863 Lawrence Valleys",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 364,
+        "end": 375,
+        "score": 0.9421509504318237,
+        "text_span": "Noah Rhodes",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 397,
+        "end": 405,
+        "score": 0.9361181259155273,
+        "text_span": "Hall PLC",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 441,
+        "end": 469,
+        "score": 0.6937348246574402,
+        "text_span": "16155 Roman Stream Suite 816",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 471,
+        "end": 484,
+        "score": 0.43047457933425903,
+        "text_span": "New Kellystad",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 509,
+        "end": 519,
+        "score": 0.4237634539604187,
+        "text_span": "jamesshawn",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1750,
+        "end": 1762,
+        "score": 0.5137551426887512,
+        "text_span": "May 13, 2027",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      }
+    ],
+    "discharge_summary.txt": [
+      {
+        "entity_type": "PERSON",
+        "start": 75,
+        "end": 87,
+        "score": 0.943516194820404,
+        "text_span": "James Powers",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 103,
+        "end": 113,
+        "score": 0.44655856490135193,
+        "text_span": "01/27/1962",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "US_SSN",
+        "start": 138,
+        "end": 149,
+        "score": 0.660061776638031,
+        "text_span": "324-97-1189",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 193,
+        "end": 210,
+        "score": 0.5169225931167603,
+        "text_span": "54278 Carr Valley",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 212,
+        "end": 225,
+        "score": 0.5360514521598816,
+        "text_span": "Lake Lisaport",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 279,
+        "end": 292,
+        "score": 0.7561482787132263,
+        "text_span": "Dr. Marc Hart",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 310,
+        "end": 320,
+        "score": 0.5605316758155823,
+        "text_span": "03/22/2026",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 514,
+        "end": 526,
+        "score": 0.9239823222160339,
+        "text_span": "James Powers",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1454,
+        "end": 1467,
+        "score": 0.7343719601631165,
+        "text_span": "Dr. Marc Hart",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1558,
+        "end": 1571,
+        "score": 0.650189995765686,
+        "text_span": "Dr. Marc Hart",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1572,
+        "end": 1601,
+        "score": 0.4345535635948181,
+        "text_span": "Jones and Sons Medical Center",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      }
+    ],
+    "referral_letter.txt": [
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 0,
+        "end": 25,
+        "score": 0.6485808491706848,
+        "text_span": "Walsh LLC Family Practice",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 32,
+        "end": 46,
+        "score": 0.43891212344169617,
+        "text_span": "Russell Canyon",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 48,
+        "end": 58,
+        "score": 0.5950143933296204,
+        "text_span": "Michaelton",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 97,
+        "end": 111,
+        "score": 0.5037962198257446,
+        "text_span": "March 28, 2026",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 113,
+        "end": 128,
+        "score": 0.7305322885513306,
+        "text_span": "Dr. Sarah Davis",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 142,
+        "end": 163,
+        "score": 0.7131866216659546,
+        "text_span": "Cardiology Associates",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 168,
+        "end": 182,
+        "score": 0.44266313314437866,
+        "text_span": "Dickson Summit",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 184,
+        "end": 197,
+        "score": 0.7385013103485107,
+        "text_span": "East Michelle",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 199,
+        "end": 207,
+        "score": 0.4489048719406128,
+        "text_span": "AS 23707",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 239,
+        "end": 254,
+        "score": 0.7218427658081055,
+        "text_span": "Dr. Sarah Davis",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 291,
+        "end": 303,
+        "score": 0.946264922618866,
+        "text_span": "Donald Smith",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 320,
+        "end": 330,
+        "score": 0.8282294869422913,
+        "text_span": "01/22/1995",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 376,
+        "end": 388,
+        "score": 0.9043715000152588,
+        "text_span": "Donald Smith",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1236,
+        "end": 1255,
+        "score": 0.5750457644462585,
+        "text_span": "Dr. Deborah Freeman",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1256,
+        "end": 1281,
+        "score": 0.7964219450950623,
+        "text_span": "Walsh LLC Family Practice",
+        "context": "",
+        "recognizer_name": "gliner_small_v21"
+      }
+    ]
+  }
+}

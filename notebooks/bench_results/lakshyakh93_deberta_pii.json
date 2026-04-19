@@ -1,0 +1,2098 @@
+{
+  "case": {
+    "key": "lakshyakh93_deberta_pii",
+    "hf_id": "lakshyakh93/deberta_finetuned_pii",
+    "family": "hf_token",
+    "params_m": 184,
+    "licence": "MIT",
+    "notes": "MIT-licensed PII fine-tune \u2014 benchmark the unknown",
+    "enabled": true
+  },
+  "elapsed_seconds": 166.7928072799998,
+  "predictions": {
+    "attorney_client_email.txt": [
+      {
+        "entity_type": "PERSON",
+        "start": 5,
+        "end": 12,
+        "score": 0.7810742855072021,
+        "text_span": " Denise",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 12,
+        "end": 20,
+        "score": 0.7219045758247375,
+        "text_span": " Jones <",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 20,
+        "end": 38,
+        "score": 0.9570178985595703,
+        "text_span": "amy60@example.org>",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 42,
+        "end": 48,
+        "score": 0.5643622875213623,
+        "text_span": " Devon",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 48,
+        "end": 76,
+        "score": 0.9348427653312683,
+        "text_span": " Flores <xprice@example.net>",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 82,
+        "end": 97,
+        "score": 0.9989965558052063,
+        "text_span": " April 06, 2026",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 233,
+        "end": 239,
+        "score": 0.8269042372703552,
+        "text_span": " Devon",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 239,
+        "end": 246,
+        "score": 0.5067226886749268,
+        "text_span": " Flores",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 446,
+        "end": 453,
+        "score": 0.5675858855247498,
+        "text_span": " Brenda",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 453,
+        "end": 458,
+        "score": 0.7585135698318481,
+        "text_span": " Hall",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 546,
+        "end": 553,
+        "score": 0.6996102929115295,
+        "text_span": " Brenda",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 562,
+        "end": 577,
+        "score": 0.9943925142288208,
+        "text_span": " April 17, 2026",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 655,
+        "end": 668,
+        "score": 0.9823881387710571,
+        "text_span": " May 30, 2026",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 1077,
+        "end": 1080,
+        "score": 0.9979981780052185,
+        "text_span": " 00",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 1080,
+        "end": 1098,
+        "score": 0.9909045696258545,
+        "text_span": "1-509-967-0546x688",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 1101,
+        "end": 1105,
+        "score": 0.7173528075218201,
+        "text_span": " amy",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 1105,
+        "end": 1121,
+        "score": 0.9696342349052429,
+        "text_span": "60@example.org.\n",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1137,
+        "end": 1140,
+        "score": 0.9842299818992615,
+        "text_span": "Den",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1140,
+        "end": 1143,
+        "score": 0.9595184326171875,
+        "text_span": "ise",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1143,
+        "end": 1149,
+        "score": 0.6321049332618713,
+        "text_span": " Jones",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      }
+    ],
+    "internal_memo.txt": [
+      {
+        "entity_type": "PERSON",
+        "start": 49,
+        "end": 57,
+        "score": 0.8275701999664307,
+        "text_span": " Cameron",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 57,
+        "end": 62,
+        "score": 0.830336332321167,
+        "text_span": " Dean",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 96,
+        "end": 104,
+        "score": 0.8373401761054993,
+        "text_span": " Elliott",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 182,
+        "end": 191,
+        "score": 0.9020419716835022,
+        "text_span": " Jennifer",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 191,
+        "end": 198,
+        "score": 0.764020562171936,
+        "text_span": " Martin",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 229,
+        "end": 244,
+        "score": 0.9987584948539734,
+        "text_span": " March 31, 2026",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 490,
+        "end": 498,
+        "score": 0.5883511304855347,
+        "text_span": " Cameron",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 498,
+        "end": 503,
+        "score": 0.9480156302452087,
+        "text_span": " Dean",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 706,
+        "end": 712,
+        "score": 0.5499752759933472,
+        "text_span": " James",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 712,
+        "end": 720,
+        "score": 0.9342137575149536,
+        "text_span": " Elliott",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 855,
+        "end": 862,
+        "score": 0.6363283395767212,
+        "text_span": " Marvin",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 862,
+        "end": 869,
+        "score": 0.9879035353660583,
+        "text_span": " Taylor",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1044,
+        "end": 1059,
+        "score": 0.8679317235946655,
+        "text_span": " April 18, 2026",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1079,
+        "end": 1087,
+        "score": 0.659821629524231,
+        "text_span": " Cameron",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1087,
+        "end": 1092,
+        "score": 0.9692924618721008,
+        "text_span": " Dean",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 1175,
+        "end": 1185,
+        "score": 0.9366602301597595,
+        "text_span": " ext. 4764",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 1212,
+        "end": 1224,
+        "score": 0.9960080981254578,
+        "text_span": " ext. 8235.\n",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1235,
+        "end": 1243,
+        "score": 0.9335763454437256,
+        "text_span": "Jennifer",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1243,
+        "end": 1250,
+        "score": 0.6986365914344788,
+        "text_span": " Martin",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      }
+    ],
+    "max_density_pii.txt": [
+      {
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 33,
+        "score": 0.8722474575042725,
+        "text_span": " Jonathan",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 36,
+        "end": 41,
+        "score": 0.955005943775177,
+        "text_span": " Whit",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 41,
+        "end": 46,
+        "score": 0.9575426578521729,
+        "text_span": "field",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "US_SSN",
+        "start": 70,
+        "end": 72,
+        "score": 0.9974415302276611,
+        "text_span": " 5",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "US_SSN",
+        "start": 72,
+        "end": 82,
+        "score": 0.9988245964050293,
+        "text_span": "83-29-4710",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 91,
+        "end": 106,
+        "score": 0.9978819489479065,
+        "text_span": " March 15, 1987",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 119,
+        "end": 121,
+        "score": 0.9929581880569458,
+        "text_span": " 4",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 121,
+        "end": 142,
+        "score": 0.9948519468307495,
+        "text_span": "201 Maple Creek Drive",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 158,
+        "end": 165,
+        "score": 0.88881516456604,
+        "text_span": " Austin",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 166,
+        "end": 169,
+        "score": 0.9966083765029907,
+        "text_span": " TX",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 202,
+        "end": 217,
+        "score": 0.9980883598327637,
+        "text_span": " (512) 555-0147",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 238,
+        "end": 267,
+        "score": 0.9999675750732422,
+        "text_span": " j.whitfield@nexagen-corp.com",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 272,
+        "end": 277,
+        "score": 0.8292939066886902,
+        "text_span": " Whit",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 277,
+        "end": 282,
+        "score": 0.6291747093200684,
+        "text_span": "field",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "CREDIT_CARD",
+        "start": 390,
+        "end": 393,
+        "score": 0.9585193991661072,
+        "text_span": " 45",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "CREDIT_CARD",
+        "start": 393,
+        "end": 410,
+        "score": 0.9868556261062622,
+        "text_span": "32-1234-5678-9012",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 422,
+        "end": 428,
+        "score": 0.9971638321876526,
+        "text_span": " 09/27",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "IP_ADDRESS",
+        "start": 570,
+        "end": 585,
+        "score": 0.6672969460487366,
+        "text_span": " 192.168.14.203",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "URL",
+        "start": 626,
+        "end": 658,
+        "score": 0.9997276663780212,
+        "text_span": " https://portal.meridianlaw.com/",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "URL",
+        "start": 663,
+        "end": 666,
+        "score": 0.6038523316383362,
+        "text_span": "/WH",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      }
+    ],
+    "zero_pii_technical.txt": [],
+    "bank_statement.txt": [
+      {
+        "entity_type": "PERSON",
+        "start": 68,
+        "end": 73,
+        "score": 0.9651839733123779,
+        "text_span": " Sher",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 73,
+        "end": 75,
+        "score": 0.9706420302391052,
+        "text_span": "ri",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 75,
+        "end": 81,
+        "score": 0.9206432104110718,
+        "text_span": " Baker",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 98,
+        "end": 113,
+        "score": 0.9944424629211426,
+        "text_span": " 148 Eric Track",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 114,
+        "end": 128,
+        "score": 0.9995362162590027,
+        "text_span": " New Stephanie",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 129,
+        "end": 132,
+        "score": 0.9941008687019348,
+        "text_span": " NC",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 217,
+        "end": 241,
+        "score": 0.7057721018791199,
+        "text_span": " 04/01/2026 - 04/09/2026",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 1065,
+        "end": 1080,
+        "score": 0.9986674785614014,
+        "text_span": " 1-800-555-0199",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      }
+    ],
+    "invoice.txt": [
+      {
+        "entity_type": "PERSON",
+        "start": 18,
+        "end": 22,
+        "score": 0.5697465538978577,
+        "text_span": "kins",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 36,
+        "end": 44,
+        "score": 0.8495146632194519,
+        "text_span": " Matthew",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 44,
+        "end": 50,
+        "score": 0.4880378842353821,
+        "text_span": " Lucas",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 50,
+        "end": 51,
+        "score": 0.5592547059059143,
+        "text_span": "\n",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 51,
+        "end": 71,
+        "score": 0.8763729929924011,
+        "text_span": "33387 Robert Harbors",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 82,
+        "end": 99,
+        "score": 0.9998846054077148,
+        "text_span": " North Deniseside",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 116,
+        "end": 129,
+        "score": 0.9914276003837585,
+        "text_span": " 432-867-7360",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 136,
+        "end": 141,
+        "score": 0.9996362924575806,
+        "text_span": " gall",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 141,
+        "end": 163,
+        "score": 0.9997607469558716,
+        "text_span": "owayjoseph@example.com",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 173,
+        "end": 178,
+        "score": 0.3582551181316376,
+        "text_span": "erson",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 192,
+        "end": 198,
+        "score": 0.9265601634979248,
+        "text_span": " Krist",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 198,
+        "end": 199,
+        "score": 0.9414638876914978,
+        "text_span": "i",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 199,
+        "end": 207,
+        "score": 0.5044661164283752,
+        "text_span": " Higgins",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 210,
+        "end": 227,
+        "score": 0.7883639335632324,
+        "text_span": "\n805 Brendan Neck",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 228,
+        "end": 240,
+        "score": 0.9992033243179321,
+        "text_span": " North Susan",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 241,
+        "end": 244,
+        "score": 0.552685558795929,
+        "text_span": " CO",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 291,
+        "end": 306,
+        "score": 0.8914911150932312,
+        "text_span": " March 28, 2026",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 316,
+        "end": 329,
+        "score": 0.9023561477661133,
+        "text_span": " May 15, 2026",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "IBAN_CODE",
+        "start": 911,
+        "end": 934,
+        "score": 0.9344841837882996,
+        "text_span": " GB37HMDS39909169985435",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 953,
+        "end": 957,
+        "score": 0.5271788239479065,
+        "text_span": " May",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      }
+    ],
+    "offer_letter.txt": [
+      {
+        "entity_type": "LOCATION",
+        "start": 17,
+        "end": 18,
+        "score": 0.803820788860321,
+        "text_span": "\n",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 18,
+        "end": 35,
+        "score": 0.8893582224845886,
+        "text_span": "03791 Perry Roads",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 36,
+        "end": 49,
+        "score": 0.9998033046722412,
+        "text_span": " Lake Heather",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 50,
+        "end": 53,
+        "score": 0.9965503215789795,
+        "text_span": " NM",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 59,
+        "end": 60,
+        "score": 0.8885640501976013,
+        "text_span": "\n",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 61,
+        "end": 77,
+        "score": 0.9732375144958496,
+        "text_span": "April 08, 2026\n\n",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 77,
+        "end": 81,
+        "score": 0.44108206033706665,
+        "text_span": "Mary",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 81,
+        "end": 90,
+        "score": 0.40354123711586,
+        "text_span": " Campbell",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 91,
+        "end": 109,
+        "score": 0.869208037853241,
+        "text_span": "63287 Angela Vista",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 110,
+        "end": 128,
+        "score": 0.9998788833618164,
+        "text_span": " South Dennismouth",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 129,
+        "end": 132,
+        "score": 0.9734179377555847,
+        "text_span": " TN",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 144,
+        "end": 149,
+        "score": 0.6534690856933594,
+        "text_span": " Mary",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 149,
+        "end": 158,
+        "score": 0.8223881721496582,
+        "text_span": " Campbell",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 465,
+        "end": 470,
+        "score": 0.7819410562515259,
+        "text_span": " Lisa",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 470,
+        "end": 476,
+        "score": 0.8363280892372131,
+        "text_span": " Davis",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 507,
+        "end": 520,
+        "score": 0.9986947774887085,
+        "text_span": " May 06, 2026",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 994,
+        "end": 996,
+        "score": 0.9891861081123352,
+        "text_span": " p",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 996,
+        "end": 1013,
+        "score": 0.9972726106643677,
+        "text_span": "green@example.net",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 1027,
+        "end": 1029,
+        "score": 0.9969810843467712,
+        "text_span": " +",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 1029,
+        "end": 1043,
+        "score": 0.9865864515304565,
+        "text_span": "1-495-979-8687",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1105,
+        "end": 1109,
+        "score": 0.547916054725647,
+        "text_span": "Lisa",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1109,
+        "end": 1115,
+        "score": 0.615090548992157,
+        "text_span": " Davis",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1193,
+        "end": 1197,
+        "score": 0.771257221698761,
+        "text_span": "Mary",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1197,
+        "end": 1206,
+        "score": 0.8988037109375,
+        "text_span": " Campbell",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      }
+    ],
+    "resume.txt": [
+      {
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 6,
+        "score": 0.7869836091995239,
+        "text_span": " Victor",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 6,
+        "end": 12,
+        "score": 0.441744863986969,
+        "text_span": " Baker",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 13,
+        "end": 32,
+        "score": 0.9617775678634644,
+        "text_span": "514 Estrada Islands",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 43,
+        "end": 59,
+        "score": 0.9530770778656006,
+        "text_span": " South Elizabeth",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 60,
+        "end": 63,
+        "score": 0.9139353036880493,
+        "text_span": " MS",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 70,
+        "end": 71,
+        "score": 0.9995052814483643,
+        "text_span": "c",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 71,
+        "end": 74,
+        "score": 0.9993923902511597,
+        "text_span": "arl",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 74,
+        "end": 96,
+        "score": 0.9995153546333313,
+        "text_span": "sonmichael@example.com",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "URL",
+        "start": 120,
+        "end": 151,
+        "score": 0.9559499621391296,
+        "text_span": " linkedin.com/in/victor-baker\n\n",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 894,
+        "end": 903,
+        "score": 0.47112172842025757,
+        "text_span": " December",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "US_SSN",
+        "start": 1344,
+        "end": 1345,
+        "score": 0.35960984230041504,
+        "text_span": "/",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      }
+    ],
+    "engagement_letter.txt": [
+      {
+        "entity_type": "LOCATION",
+        "start": 15,
+        "end": 30,
+        "score": 0.6036713123321533,
+        "text_span": "503 Linda Locks",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 56,
+        "end": 58,
+        "score": 0.9902521371841431,
+        "text_span": " 8",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 58,
+        "end": 69,
+        "score": 0.9967424273490906,
+        "text_span": "01-922-6916",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 71,
+        "end": 87,
+        "score": 0.9640116691589355,
+        "text_span": "April 09, 2026\n\n",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 87,
+        "end": 90,
+        "score": 0.9658262133598328,
+        "text_span": "Kim",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 90,
+        "end": 93,
+        "score": 0.9808690547943115,
+        "text_span": "ber",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 93,
+        "end": 95,
+        "score": 0.9607321619987488,
+        "text_span": "ly",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 95,
+        "end": 103,
+        "score": 0.7951555252075195,
+        "text_span": " Sanchez",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 104,
+        "end": 120,
+        "score": 0.7492272853851318,
+        "text_span": "7242 Julie Plain",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 131,
+        "end": 135,
+        "score": 0.9987830519676208,
+        "text_span": " Cox",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 135,
+        "end": 139,
+        "score": 0.9989017248153687,
+        "text_span": "berg",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 140,
+        "end": 143,
+        "score": 0.9902874231338501,
+        "text_span": " NY",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 155,
+        "end": 164,
+        "score": 0.9705070853233337,
+        "text_span": " Kimberly",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 164,
+        "end": 172,
+        "score": 0.8162892460823059,
+        "text_span": " Sanchez",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 624,
+        "end": 628,
+        "score": 0.9929124712944031,
+        "text_span": " Mel",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 628,
+        "end": 632,
+        "score": 0.986561119556427,
+        "text_span": "inda",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 632,
+        "end": 638,
+        "score": 0.8497866988182068,
+        "text_span": " Jones",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 703,
+        "end": 707,
+        "score": 0.9904221296310425,
+        "text_span": " Mel",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 707,
+        "end": 711,
+        "score": 0.9895769357681274,
+        "text_span": "inda",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 729,
+        "end": 731,
+        "score": 0.993304431438446,
+        "text_span": " t",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 731,
+        "end": 749,
+        "score": 0.9947105050086975,
+        "text_span": "asha01@example.net",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 1103,
+        "end": 1107,
+        "score": 0.9744759798049927,
+        "text_span": " kay",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 1107,
+        "end": 1123,
+        "score": 0.9852488040924072,
+        "text_span": "la51@example.com",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1264,
+        "end": 1267,
+        "score": 0.9621446132659912,
+        "text_span": "Mel",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1267,
+        "end": 1271,
+        "score": 0.8423413634300232,
+        "text_span": "inda",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1271,
+        "end": 1277,
+        "score": 0.5011826753616333,
+        "text_span": " Jones",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1351,
+        "end": 1354,
+        "score": 0.984592616558075,
+        "text_span": "Kim",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1354,
+        "end": 1357,
+        "score": 0.9796140789985657,
+        "text_span": "ber",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1357,
+        "end": 1359,
+        "score": 0.9566693902015686,
+        "text_span": "ly",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1359,
+        "end": 1367,
+        "score": 0.8007625341415405,
+        "text_span": " Sanchez",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      }
+    ],
+    "nda_contract.txt": [
+      {
+        "entity_type": "DATE_TIME",
+        "start": 95,
+        "end": 113,
+        "score": 0.9951666593551636,
+        "text_span": " December 22, 2025",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 162,
+        "end": 170,
+        "score": 0.5184895396232605,
+        "text_span": " Allison",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 170,
+        "end": 175,
+        "score": 0.8710200190544128,
+        "text_span": " Hill",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 261,
+        "end": 263,
+        "score": 0.9969262480735779,
+        "text_span": " 8",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 263,
+        "end": 282,
+        "score": 0.9972807765007019,
+        "text_span": "63 Lawrence Valleys",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 283,
+        "end": 301,
+        "score": 0.9999307990074158,
+        "text_span": " Port Lindachester",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 302,
+        "end": 305,
+        "score": 0.9875168204307556,
+        "text_span": " MA",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 325,
+        "end": 327,
+        "score": 0.9995334148406982,
+        "text_span": " k",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 327,
+        "end": 330,
+        "score": 0.9995245933532715,
+        "text_span": "end",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 330,
+        "end": 352,
+        "score": 0.9329321980476379,
+        "text_span": "ragalloway@example.org",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 363,
+        "end": 368,
+        "score": 0.954926073551178,
+        "text_span": " Noah",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 368,
+        "end": 375,
+        "score": 0.42341747879981995,
+        "text_span": " Rhodes",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 440,
+        "end": 443,
+        "score": 0.9961353540420532,
+        "text_span": " 16",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 443,
+        "end": 459,
+        "score": 0.9964941143989563,
+        "text_span": "155 Roman Stream",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 470,
+        "end": 484,
+        "score": 0.9998437762260437,
+        "text_span": " New Kellystad",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 485,
+        "end": 488,
+        "score": 0.9936484694480896,
+        "text_span": " OK",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 508,
+        "end": 512,
+        "score": 0.9989448189735413,
+        "text_span": " jam",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 512,
+        "end": 515,
+        "score": 0.999002993106842,
+        "text_span": "ess",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 515,
+        "end": 517,
+        "score": 0.9936347007751465,
+        "text_span": "ha",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 517,
+        "end": 531,
+        "score": 0.99449223279953,
+        "text_span": "wn@example.com",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1749,
+        "end": 1762,
+        "score": 0.9811519384384155,
+        "text_span": " May 13, 2027",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 1975,
+        "end": 1984,
+        "score": 0.968075156211853,
+        "text_span": " New York",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1997,
+        "end": 2000,
+        "score": 0.5452101826667786,
+        "text_span": " WH",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 2000,
+        "end": 2002,
+        "score": 0.4455374777317047,
+        "text_span": "ER",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 2002,
+        "end": 2004,
+        "score": 0.4507996141910553,
+        "text_span": "EO",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 2004,
+        "end": 2005,
+        "score": 0.3752947747707367,
+        "text_span": "F",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 2111,
+        "end": 2114,
+        "score": 0.7028346061706543,
+        "text_span": "All",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 2114,
+        "end": 2118,
+        "score": 0.5152562856674194,
+        "text_span": "ison",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 2118,
+        "end": 2123,
+        "score": 0.830422043800354,
+        "text_span": " Hill",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 2208,
+        "end": 2210,
+        "score": 0.8408288359642029,
+        "text_span": "No",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 2210,
+        "end": 2212,
+        "score": 0.8576130270957947,
+        "text_span": "ah",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 2212,
+        "end": 2219,
+        "score": 0.6100209355354309,
+        "text_span": " Rhodes",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 2265,
+        "end": 2271,
+        "score": 0.9577042460441589,
+        "text_span": " Henry",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 2271,
+        "end": 2280,
+        "score": 0.49326303601264954,
+        "text_span": " Santiago",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      }
+    ],
+    "discharge_summary.txt": [
+      {
+        "entity_type": "PERSON",
+        "start": 74,
+        "end": 80,
+        "score": 0.5451686978340149,
+        "text_span": " James",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 80,
+        "end": 87,
+        "score": 0.5732228755950928,
+        "text_span": " Powers",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 102,
+        "end": 113,
+        "score": 0.9990530610084534,
+        "text_span": " 01/27/1962",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "US_SSN",
+        "start": 137,
+        "end": 149,
+        "score": 0.9989758133888245,
+        "text_span": " 324-97-1189",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 192,
+        "end": 195,
+        "score": 0.9877228736877441,
+        "text_span": " 54",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 195,
+        "end": 210,
+        "score": 0.99216628074646,
+        "text_span": "278 Carr Valley",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 211,
+        "end": 225,
+        "score": 0.9998949766159058,
+        "text_span": " Lake Lisaport",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 226,
+        "end": 229,
+        "score": 0.9934304356575012,
+        "text_span": " TN",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 242,
+        "end": 256,
+        "score": 0.9958580732345581,
+        "text_span": " (541)718-2449",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 282,
+        "end": 287,
+        "score": 0.9332569241523743,
+        "text_span": " Marc",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 287,
+        "end": 292,
+        "score": 0.9273532032966614,
+        "text_span": " Hart",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 292,
+        "end": 293,
+        "score": 0.36970674991607666,
+        "text_span": "\n",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 309,
+        "end": 320,
+        "score": 0.9976856112480164,
+        "text_span": " 03/22/2026",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 336,
+        "end": 347,
+        "score": 0.9960221648216248,
+        "text_span": " 04/04/2026",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 513,
+        "end": 519,
+        "score": 0.6153906583786011,
+        "text_span": " James",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 519,
+        "end": 526,
+        "score": 0.5077061057090759,
+        "text_span": " Powers",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1457,
+        "end": 1462,
+        "score": 0.8017567992210388,
+        "text_span": " Marc",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1462,
+        "end": 1467,
+        "score": 0.5862689018249512,
+        "text_span": " Hart",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1561,
+        "end": 1566,
+        "score": 0.6958368420600891,
+        "text_span": " Marc",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1566,
+        "end": 1571,
+        "score": 0.7747935056686401,
+        "text_span": " Hart",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      }
+    ],
+    "referral_letter.txt": [
+      {
+        "entity_type": "LOCATION",
+        "start": 26,
+        "end": 28,
+        "score": 0.9869055151939392,
+        "text_span": "12",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 28,
+        "end": 46,
+        "score": 0.8860554695129395,
+        "text_span": "805 Russell Canyon",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 47,
+        "end": 55,
+        "score": 0.9923499226570129,
+        "text_span": " Michael",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 55,
+        "end": 58,
+        "score": 0.9918578267097473,
+        "text_span": "ton",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 75,
+        "end": 95,
+        "score": 0.9942638874053955,
+        "text_span": " (902)756-3421x60733",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 97,
+        "end": 111,
+        "score": 0.9584102630615234,
+        "text_span": "March 28, 2026",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 116,
+        "end": 122,
+        "score": 0.6642258763313293,
+        "text_span": " Sarah",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 122,
+        "end": 128,
+        "score": 0.5786617994308472,
+        "text_span": " Davis",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 164,
+        "end": 182,
+        "score": 0.9906690716743469,
+        "text_span": "158 Dickson Summit",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 183,
+        "end": 197,
+        "score": 0.9996894598007202,
+        "text_span": " East Michelle",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 214,
+        "end": 216,
+        "score": 0.9894156455993652,
+        "text_span": " 7",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 216,
+        "end": 233,
+        "score": 0.9898562431335449,
+        "text_span": "33-203-6541x4586\n",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 242,
+        "end": 248,
+        "score": 0.6677818894386292,
+        "text_span": " Sarah",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 248,
+        "end": 254,
+        "score": 0.9260982275009155,
+        "text_span": " Davis",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 290,
+        "end": 297,
+        "score": 0.7373086810112,
+        "text_span": " Donald",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 297,
+        "end": 303,
+        "score": 0.9445804953575134,
+        "text_span": " Smith",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 319,
+        "end": 330,
+        "score": 0.9992826581001282,
+        "text_span": " 01/22/1995",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 376,
+        "end": 382,
+        "score": 0.5339016914367676,
+        "text_span": "Donald",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 382,
+        "end": 388,
+        "score": 0.868493378162384,
+        "text_span": " Smith",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1239,
+        "end": 1247,
+        "score": 0.67923504114151,
+        "text_span": " Deborah",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1247,
+        "end": 1255,
+        "score": 0.9563605785369873,
+        "text_span": " Freeman",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1256,
+        "end": 1257,
+        "score": 0.6683412790298462,
+        "text_span": "W",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1257,
+        "end": 1261,
+        "score": 0.5730904340744019,
+        "text_span": "alsh",
+        "context": "",
+        "recognizer_name": "lakshyakh93_deberta_pii"
+      }
+    ]
+  }
+}

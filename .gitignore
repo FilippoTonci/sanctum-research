@@ -1,0 +1,71 @@
+docs/
+resources/
+.vscode/
+.venv/
+
+__pycache__/
+.mypy_cache/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+docs/_build
+docs/locales.rst
+docs/locales/*.rst
+docs/providers.rst
+docs/providers/*.rst
+eggs
+.eggs
+parts
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+.python-version
+.idea
+.projectile
+.ropeproject
+.DS_Store
+.venv
+.venv-bench
+
+# IDE
+*.sw[po]
+*.iml
+*.ipr
+venv/
+.vscode
+
+# Dev-only office fixtures pulled by scripts/fetch_public_office_samples.py.
+# Never committed — used for local developer-time testing only. CI stays
+# offline and reads the committed generated fixtures under
+# tests/fixtures/office/ (not the public/ subdir).
+tests/fixtures/office/public/
+
+# Coverage outputs produced by the new CI gate.
+coverage.xml
+htmlcov/

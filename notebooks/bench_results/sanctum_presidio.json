@@ -1,0 +1,2450 @@
+{
+  "case": {
+    "key": "sanctum_presidio",
+    "hf_id": "",
+    "family": "sanctum",
+    "params_m": 0.0,
+    "licence": "\u2014",
+    "notes": "Presidio + spaCy en_core_web_lg (issue #7 fix: ORG enabled)",
+    "enabled": true
+  },
+  "elapsed_seconds": 34.866341516999455,
+  "predictions": {
+    "attorney_client_email.txt": [
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 20,
+        "end": 37,
+        "score": 1.0,
+        "text_span": "amy60@example.org",
+        "context": "",
+        "recognizer_name": "EmailRecognizer"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 57,
+        "end": 75,
+        "score": 1.0,
+        "text_span": "xprice@example.net",
+        "context": "",
+        "recognizer_name": "EmailRecognizer"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 1102,
+        "end": 1119,
+        "score": 1.0,
+        "text_span": "amy60@example.org",
+        "context": "",
+        "recognizer_name": "EmailRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 6,
+        "end": 18,
+        "score": 0.85,
+        "text_span": "Denise Jones",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 43,
+        "end": 55,
+        "score": 0.85,
+        "text_span": "Devon Flores",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 83,
+        "end": 97,
+        "score": 0.85,
+        "text_span": "April 06, 2026",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 141,
+        "end": 153,
+        "score": 0.85,
+        "text_span": "Devon Flores",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 157,
+        "end": 168,
+        "score": 0.85,
+        "text_span": "Brenda Hall",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 234,
+        "end": 246,
+        "score": 0.85,
+        "text_span": "Devon Flores",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 331,
+        "end": 340,
+        "score": 0.85,
+        "text_span": "last week",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 447,
+        "end": 460,
+        "score": 0.85,
+        "text_span": "Brenda Hall's",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 495,
+        "end": 506,
+        "score": 0.85,
+        "text_span": "thirty days",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 547,
+        "end": 558,
+        "score": 0.85,
+        "text_span": "Brenda Hall",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 563,
+        "end": 577,
+        "score": 0.85,
+        "text_span": "April 17, 2026",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 656,
+        "end": 668,
+        "score": 0.85,
+        "text_span": "May 30, 2026",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1137,
+        "end": 1159,
+        "score": 0.85,
+        "text_span": "Denise Jones\nHernandez",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1171,
+        "end": 1189,
+        "score": 0.85,
+        "text_span": "Perry & Associates",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "URL",
+        "start": 26,
+        "end": 37,
+        "score": 0.5,
+        "text_span": "example.org",
+        "context": "",
+        "recognizer_name": "UrlRecognizer"
+      },
+      {
+        "entity_type": "URL",
+        "start": 64,
+        "end": 75,
+        "score": 0.5,
+        "text_span": "example.net",
+        "context": "",
+        "recognizer_name": "UrlRecognizer"
+      },
+      {
+        "entity_type": "URL",
+        "start": 1108,
+        "end": 1119,
+        "score": 0.5,
+        "text_span": "example.org",
+        "context": "",
+        "recognizer_name": "UrlRecognizer"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 1078,
+        "end": 1098,
+        "score": 0.4,
+        "text_span": "001-509-967-0546x688",
+        "context": "",
+        "recognizer_name": "PhoneRecognizer"
+      }
+    ],
+    "internal_memo.txt": [
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 0,
+        "end": 44,
+        "score": 0.85,
+        "text_span": "White-Green\nINTERNAL MEMORANDUM\nCONFIDENTIAL",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 50,
+        "end": 62,
+        "score": 0.85,
+        "text_span": "Cameron Dean",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 76,
+        "end": 86,
+        "score": 0.85,
+        "text_span": "Operations",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 91,
+        "end": 104,
+        "score": 0.85,
+        "text_span": "James Elliott",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 138,
+        "end": 151,
+        "score": 0.85,
+        "text_span": "Marvin Taylor",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 183,
+        "end": 198,
+        "score": 0.85,
+        "text_span": "Jennifer Martin",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 230,
+        "end": 244,
+        "score": 0.85,
+        "text_span": "March 31, 2026",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 316,
+        "end": 334,
+        "score": 0.85,
+        "text_span": "the second quarter",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 467,
+        "end": 477,
+        "score": 0.85,
+        "text_span": "Operations",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 491,
+        "end": 503,
+        "score": 0.85,
+        "text_span": "Cameron Dean",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 707,
+        "end": 722,
+        "score": 0.85,
+        "text_span": "James Elliott's",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 839,
+        "end": 850,
+        "score": 0.85,
+        "text_span": "end of week",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 856,
+        "end": 869,
+        "score": 0.85,
+        "text_span": "Marvin Taylor",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 975,
+        "end": 981,
+        "score": 0.85,
+        "text_span": "Monday",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1045,
+        "end": 1059,
+        "score": 0.85,
+        "text_span": "April 18, 2026",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1080,
+        "end": 1092,
+        "score": 0.85,
+        "text_span": "Cameron Dean",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1218,
+        "end": 1222,
+        "score": 0.85,
+        "text_span": "8235",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1235,
+        "end": 1256,
+        "score": 0.85,
+        "text_span": "Jennifer Martin\nChief",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      }
+    ],
+    "max_density_pii.txt": [
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 239,
+        "end": 267,
+        "score": 1.0,
+        "text_span": "j.whitfield@nexagen-corp.com",
+        "context": "",
+        "recognizer_name": "EmailRecognizer"
+      },
+      {
+        "entity_type": "IBAN_CODE",
+        "start": 459,
+        "end": 481,
+        "score": 1.0,
+        "text_span": "DE89370400440532013000",
+        "context": "",
+        "recognizer_name": "IbanRecognizer"
+      },
+      {
+        "entity_type": "IP_ADDRESS",
+        "start": 571,
+        "end": 585,
+        "score": 0.95,
+        "text_span": "192.168.14.203",
+        "context": "",
+        "recognizer_name": "IpRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 25,
+        "end": 46,
+        "score": 0.85,
+        "text_span": "Jonathan R. Whitfield",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 48,
+        "end": 63,
+        "score": 0.85,
+        "text_span": "Social Security",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "US_SSN",
+        "start": 71,
+        "end": 82,
+        "score": 0.85,
+        "text_span": "583-29-4710",
+        "context": "",
+        "recognizer_name": "UsSsnRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 92,
+        "end": 106,
+        "score": 0.85,
+        "text_span": "March 15, 1987",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 120,
+        "end": 124,
+        "score": 0.85,
+        "text_span": "4201",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 159,
+        "end": 165,
+        "score": 0.85,
+        "text_span": "Austin",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 273,
+        "end": 282,
+        "score": 0.85,
+        "text_span": "Whitfield",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 298,
+        "end": 317,
+        "score": 0.85,
+        "text_span": "NexaGen Corporation",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 391,
+        "end": 410,
+        "score": 0.85,
+        "text_span": "4532-1234-5678-9012",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 454,
+        "end": 458,
+        "score": 0.85,
+        "text_span": "IBAN",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 483,
+        "end": 489,
+        "score": 0.85,
+        "text_span": "Driver",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 560,
+        "end": 562,
+        "score": 0.85,
+        "text_span": "IP",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 571,
+        "end": 585,
+        "score": 0.85,
+        "text_span": "192.168.14.203",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 203,
+        "end": 217,
+        "score": 0.75,
+        "text_span": "(512) 555-0147",
+        "context": "",
+        "recognizer_name": "PhoneRecognizer"
+      },
+      {
+        "entity_type": "URL",
+        "start": 627,
+        "end": 677,
+        "score": 0.6,
+        "text_span": "https://portal.meridianlaw.com/cases/WH-2024-0891.",
+        "context": "",
+        "recognizer_name": "UrlRecognizer"
+      },
+      {
+        "entity_type": "URL",
+        "start": 251,
+        "end": 267,
+        "score": 0.5,
+        "text_span": "nexagen-corp.com",
+        "context": "",
+        "recognizer_name": "UrlRecognizer"
+      },
+      {
+        "entity_type": "US_DRIVER_LICENSE",
+        "start": 510,
+        "end": 518,
+        "score": 0.4,
+        "text_span": "84291053",
+        "context": "",
+        "recognizer_name": "UsLicenseRecognizer"
+      }
+    ],
+    "zero_pii_technical.txt": [
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 833,
+        "end": 836,
+        "score": 0.85,
+        "text_span": "CPU",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 854,
+        "end": 872,
+        "score": 0.85,
+        "text_span": "asyncio integrates",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1049,
+        "end": 1059,
+        "score": 0.85,
+        "text_span": "Python 3.7",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 1181,
+        "end": 1186,
+        "score": 0.85,
+        "text_span": "httpx",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "URL",
+        "start": 570,
+        "end": 580,
+        "score": 0.5,
+        "text_span": "asyncio.ga",
+        "context": "",
+        "recognizer_name": "UrlRecognizer"
+      },
+      {
+        "entity_type": "URL",
+        "start": 902,
+        "end": 910,
+        "score": 0.5,
+        "text_span": "loop.run",
+        "context": "",
+        "recognizer_name": "UrlRecognizer"
+      }
+    ],
+    "bank_statement.txt": [
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 0,
+        "end": 33,
+        "score": 0.85,
+        "text_span": "Hickman Ltd National Bank\nMONTHLY",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 69,
+        "end": 81,
+        "score": 0.85,
+        "text_span": "Sherri Baker",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 103,
+        "end": 113,
+        "score": 0.85,
+        "text_span": "Eric Track",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 115,
+        "end": 128,
+        "score": 0.85,
+        "text_span": "New Stephanie",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 130,
+        "end": 132,
+        "score": 0.85,
+        "text_span": "NC",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 521,
+        "end": 527,
+        "score": 0.85,
+        "text_span": "Harris",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 529,
+        "end": 536,
+        "score": 0.85,
+        "text_span": "Collins",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 541,
+        "end": 561,
+        "score": 0.85,
+        "text_span": "Carney          -$  ",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 580,
+        "end": 590,
+        "score": 0.85,
+        "text_span": "04/05/2026",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 594,
+        "end": 600,
+        "score": 0.85,
+        "text_span": "Brooks",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 602,
+        "end": 605,
+        "score": 0.85,
+        "text_span": "Lam",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 610,
+        "end": 632,
+        "score": 0.85,
+        "text_span": "Hayes               -$",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 653,
+        "end": 663,
+        "score": 0.85,
+        "text_span": "04/05/2026",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 726,
+        "end": 736,
+        "score": 0.85,
+        "text_span": "04/06/2026",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 823,
+        "end": 828,
+        "score": 0.85,
+        "text_span": "Jones",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1020,
+        "end": 1045,
+        "score": 0.85,
+        "text_span": "Hickman Ltd National Bank",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 218,
+        "end": 228,
+        "score": 0.6,
+        "text_span": "04/01/2026",
+        "context": "",
+        "recognizer_name": "DateRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 231,
+        "end": 241,
+        "score": 0.6,
+        "text_span": "04/09/2026",
+        "context": "",
+        "recognizer_name": "DateRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 507,
+        "end": 517,
+        "score": 0.6,
+        "text_span": "04/02/2026",
+        "context": "",
+        "recognizer_name": "DateRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 580,
+        "end": 590,
+        "score": 0.6,
+        "text_span": "04/05/2026",
+        "context": "",
+        "recognizer_name": "DateRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 653,
+        "end": 663,
+        "score": 0.6,
+        "text_span": "04/05/2026",
+        "context": "",
+        "recognizer_name": "DateRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 726,
+        "end": 736,
+        "score": 0.6,
+        "text_span": "04/06/2026",
+        "context": "",
+        "recognizer_name": "DateRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 799,
+        "end": 809,
+        "score": 0.6,
+        "text_span": "04/08/2026",
+        "context": "",
+        "recognizer_name": "DateRecognizer"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 1066,
+        "end": 1080,
+        "score": 0.4,
+        "text_span": "1-800-555-0199",
+        "context": "",
+        "recognizer_name": "PhoneRecognizer"
+      }
+    ],
+    "invoice.txt": [
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 137,
+        "end": 163,
+        "score": 1.0,
+        "text_span": "gallowayjoseph@example.com",
+        "context": "",
+        "recognizer_name": "EmailRecognizer"
+      },
+      {
+        "entity_type": "IBAN_CODE",
+        "start": 912,
+        "end": 934,
+        "score": 1.0,
+        "text_span": "GB37HMDS39909169985435",
+        "context": "",
+        "recognizer_name": "IbanRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 37,
+        "end": 50,
+        "score": 0.85,
+        "text_span": "Matthew Lucas",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 51,
+        "end": 56,
+        "score": 0.85,
+        "text_span": "33387",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 57,
+        "end": 77,
+        "score": 0.85,
+        "text_span": "Robert Harbors Suite",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 83,
+        "end": 99,
+        "score": 0.85,
+        "text_span": "North Deniseside",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 104,
+        "end": 109,
+        "score": 0.85,
+        "text_span": "02435",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 169,
+        "end": 191,
+        "score": 0.85,
+        "text_span": "Henderson-Bernard\nAttn",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 193,
+        "end": 210,
+        "score": 0.85,
+        "text_span": "Kristi Higgins MD",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 215,
+        "end": 227,
+        "score": 0.85,
+        "text_span": "Brendan Neck",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 229,
+        "end": 240,
+        "score": 0.85,
+        "text_span": "North Susan",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 278,
+        "end": 290,
+        "score": 0.85,
+        "text_span": "Invoice Date",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 292,
+        "end": 306,
+        "score": 0.85,
+        "text_span": "March 28, 2026",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 317,
+        "end": 329,
+        "score": 0.85,
+        "text_span": "May 15, 2026",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 398,
+        "end": 458,
+        "score": 0.85,
+        "text_span": "Description                          QtyUnit Price     Total",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 520,
+        "end": 539,
+        "score": 0.85,
+        "text_span": "Consulting Services",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 581,
+        "end": 623,
+        "score": 0.85,
+        "text_span": "Project Management                     1  ",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 877,
+        "end": 905,
+        "score": 0.85,
+        "text_span": "First National Business Bank",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 912,
+        "end": 943,
+        "score": 0.85,
+        "text_span": "GB37HMDS39909169985435\n\nPayment",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 954,
+        "end": 966,
+        "score": 0.85,
+        "text_span": "May 15, 2026",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1004,
+        "end": 1011,
+        "score": 0.85,
+        "text_span": "monthly",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 117,
+        "end": 129,
+        "score": 0.75,
+        "text_span": "432-867-7360",
+        "context": "",
+        "recognizer_name": "PhoneRecognizer"
+      },
+      {
+        "entity_type": "URL",
+        "start": 152,
+        "end": 163,
+        "score": 0.5,
+        "text_span": "example.com",
+        "context": "",
+        "recognizer_name": "UrlRecognizer"
+      }
+    ],
+    "offer_letter.txt": [
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 995,
+        "end": 1013,
+        "score": 1.0,
+        "text_span": "pgreen@example.net",
+        "context": "",
+        "recognizer_name": "EmailRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 0,
+        "end": 8,
+        "score": 0.85,
+        "text_span": "Chambers",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 13,
+        "end": 17,
+        "score": 0.85,
+        "text_span": "Sons",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 35,
+        "score": 0.85,
+        "text_span": "Perry Roads",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 37,
+        "end": 49,
+        "score": 0.85,
+        "text_span": "Lake Heather",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 51,
+        "end": 59,
+        "score": 0.85,
+        "text_span": "NM 52884",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 61,
+        "end": 75,
+        "score": 0.85,
+        "text_span": "April 08, 2026",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 77,
+        "end": 90,
+        "score": 0.85,
+        "text_span": "Mary Campbell",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 97,
+        "end": 109,
+        "score": 0.85,
+        "text_span": "Angela Vista",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 111,
+        "end": 128,
+        "score": 0.85,
+        "text_span": "South Dennismouth",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 145,
+        "end": 158,
+        "score": 0.85,
+        "text_span": "Mary Campbell",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 174,
+        "end": 182,
+        "score": 0.85,
+        "text_span": "Chambers",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 187,
+        "end": 191,
+        "score": 0.85,
+        "text_span": "Sons",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 261,
+        "end": 281,
+        "score": 0.85,
+        "text_span": "Senior Data Engineer",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 466,
+        "end": 476,
+        "score": 0.85,
+        "text_span": "Lisa Davis",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 508,
+        "end": 520,
+        "score": 0.85,
+        "text_span": "May 06, 2026",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 692,
+        "end": 699,
+        "score": 0.85,
+        "text_span": "20 days",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 725,
+        "end": 731,
+        "score": 0.85,
+        "text_span": "annual",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 889,
+        "end": 906,
+        "score": 0.85,
+        "text_span": "the United States",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "NRP",
+        "start": 1028,
+        "end": 1043,
+        "score": 0.85,
+        "text_span": "+1-495-979-8687",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1105,
+        "end": 1115,
+        "score": 0.85,
+        "text_span": "Lisa Davis",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1135,
+        "end": 1143,
+        "score": 0.85,
+        "text_span": "Chambers",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1193,
+        "end": 1206,
+        "score": 0.85,
+        "text_span": "Mary Campbell",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "URL",
+        "start": 1002,
+        "end": 1013,
+        "score": 0.5,
+        "text_span": "example.net",
+        "context": "",
+        "recognizer_name": "UrlRecognizer"
+      }
+    ],
+    "resume.txt": [
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 70,
+        "end": 96,
+        "score": 1.0,
+        "text_span": "carlsonmichael@example.com",
+        "context": "",
+        "recognizer_name": "EmailRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12,
+        "score": 0.85,
+        "text_span": "Victor Baker",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 44,
+        "end": 59,
+        "score": 0.85,
+        "text_span": "South Elizabeth",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "URL",
+        "start": 121,
+        "end": 149,
+        "score": 0.85,
+        "text_span": "linkedin.com/in/victor-baker",
+        "context": "",
+        "recognizer_name": "UrlRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 222,
+        "end": 233,
+        "score": 0.85,
+        "text_span": "eight years",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 455,
+        "end": 460,
+        "score": 0.85,
+        "text_span": "daily",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 513,
+        "end": 517,
+        "score": 0.85,
+        "text_span": "Bass",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 519,
+        "end": 525,
+        "score": 0.85,
+        "text_span": "Torres",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 530,
+        "end": 535,
+        "score": 0.85,
+        "text_span": "Clark",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 538,
+        "end": 574,
+        "score": 0.85,
+        "text_span": "January 2025 - Present\n- Architected",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 828,
+        "end": 849,
+        "score": 0.85,
+        "text_span": "from hours to minutes",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 874,
+        "end": 881,
+        "score": 0.85,
+        "text_span": "Gilbert",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 886,
+        "end": 892,
+        "score": 0.85,
+        "text_span": "Turner",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 895,
+        "end": 921,
+        "score": 0.85,
+        "text_span": "December 2020 - April 2023",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 992,
+        "end": 1008,
+        "score": 0.85,
+        "text_span": "Spark\n- Designed",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1272,
+        "end": 1278,
+        "score": 0.85,
+        "text_span": "Morris",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1283,
+        "end": 1299,
+        "score": 0.85,
+        "text_span": "Ramos University",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1312,
+        "end": 1322,
+        "score": 0.85,
+        "text_span": "March 2018",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1323,
+        "end": 1334,
+        "score": 0.85,
+        "text_span": "Dean's List",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1336,
+        "end": 1339,
+        "score": 0.85,
+        "text_span": "GPA",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1380,
+        "end": 1384,
+        "score": 0.85,
+        "text_span": "Java",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1386,
+        "end": 1396,
+        "score": 0.85,
+        "text_span": "TypeScript",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1426,
+        "end": 1437,
+        "score": 0.85,
+        "text_span": "Spring Boot",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1466,
+        "end": 1476,
+        "score": 0.85,
+        "text_span": "Kubernetes",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1478,
+        "end": 1484,
+        "score": 0.85,
+        "text_span": "Docker",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1486,
+        "end": 1495,
+        "score": 0.85,
+        "text_span": "Terraform",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1519,
+        "end": 1524,
+        "score": 0.85,
+        "text_span": "Redis",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "URL",
+        "start": 85,
+        "end": 96,
+        "score": 0.5,
+        "text_span": "example.com",
+        "context": "",
+        "recognizer_name": "UrlRecognizer"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 99,
+        "end": 118,
+        "score": 0.4,
+        "text_span": "(798)816-9340x60883",
+        "context": "",
+        "recognizer_name": "PhoneRecognizer"
+      }
+    ],
+    "engagement_letter.txt": [
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 730,
+        "end": 749,
+        "score": 1.0,
+        "text_span": "tasha01@example.net",
+        "context": "",
+        "recognizer_name": "EmailRecognizer"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 1104,
+        "end": 1123,
+        "score": 1.0,
+        "text_span": "kayla51@example.com",
+        "context": "",
+        "recognizer_name": "EmailRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 0,
+        "end": 9,
+        "score": 0.85,
+        "text_span": "Gray-Mayo",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 11,
+        "end": 14,
+        "score": 0.85,
+        "text_span": "LLP",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 19,
+        "end": 30,
+        "score": 0.85,
+        "text_span": "Linda Locks",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 32,
+        "end": 41,
+        "score": 0.85,
+        "text_span": "Carlshire",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 71,
+        "end": 85,
+        "score": 0.85,
+        "text_span": "April 09, 2026",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 87,
+        "end": 108,
+        "score": 0.85,
+        "text_span": "Kimberly Sanchez\n7242",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 132,
+        "end": 139,
+        "score": 0.85,
+        "text_span": "Coxberg",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 141,
+        "end": 143,
+        "score": 0.85,
+        "text_span": "NY",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 199,
+        "end": 208,
+        "score": 0.85,
+        "text_span": "Gray-Mayo",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 210,
+        "end": 213,
+        "score": 0.85,
+        "text_span": "LLP",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 625,
+        "end": 638,
+        "score": 0.85,
+        "text_span": "Melinda Jones",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 704,
+        "end": 717,
+        "score": 0.85,
+        "text_span": "Melinda Jones",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 783,
+        "end": 789,
+        "score": 0.85,
+        "text_span": "hourly",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1005,
+        "end": 1012,
+        "score": 0.85,
+        "text_span": "monthly",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1264,
+        "end": 1285,
+        "score": 0.85,
+        "text_span": "Melinda Jones\nPartner",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1287,
+        "end": 1296,
+        "score": 0.85,
+        "text_span": "Gray-Mayo",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1298,
+        "end": 1301,
+        "score": 0.85,
+        "text_span": "LLP",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1351,
+        "end": 1367,
+        "score": 0.85,
+        "text_span": "Kimberly Sanchez",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "URL",
+        "start": 738,
+        "end": 749,
+        "score": 0.5,
+        "text_span": "example.net",
+        "context": "",
+        "recognizer_name": "UrlRecognizer"
+      },
+      {
+        "entity_type": "URL",
+        "start": 1112,
+        "end": 1123,
+        "score": 0.5,
+        "text_span": "example.com",
+        "context": "",
+        "recognizer_name": "UrlRecognizer"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 57,
+        "end": 69,
+        "score": 0.4,
+        "text_span": "801-922-6916",
+        "context": "",
+        "recognizer_name": "PhoneRecognizer"
+      }
+    ],
+    "nda_contract.txt": [
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 326,
+        "end": 352,
+        "score": 1.0,
+        "text_span": "kendragalloway@example.org",
+        "context": "",
+        "recognizer_name": "EmailRecognizer"
+      },
+      {
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 509,
+        "end": 531,
+        "score": 1.0,
+        "text_span": "jamesshawn@example.com",
+        "context": "",
+        "recognizer_name": "EmailRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 96,
+        "end": 113,
+        "score": 0.85,
+        "text_span": "December 22, 2025",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 115,
+        "end": 134,
+        "score": 0.85,
+        "text_span": "the \"Effective Date",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 163,
+        "end": 175,
+        "score": 0.85,
+        "text_span": "Allison Hill",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 197,
+        "end": 203,
+        "score": 0.85,
+        "text_span": "Miller",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 205,
+        "end": 214,
+        "score": 0.85,
+        "text_span": "Henderson",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 219,
+        "end": 226,
+        "score": 0.85,
+        "text_span": "Johnson",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 266,
+        "end": 282,
+        "score": 0.85,
+        "text_span": "Lawrence Valleys",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 284,
+        "end": 301,
+        "score": 0.85,
+        "text_span": "Port Lindachester",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 303,
+        "end": 311,
+        "score": 0.85,
+        "text_span": "MA 36922",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 364,
+        "end": 375,
+        "score": 0.85,
+        "text_span": "Noah Rhodes",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 397,
+        "end": 405,
+        "score": 0.85,
+        "text_span": "Hall PLC",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 441,
+        "end": 446,
+        "score": 0.85,
+        "text_span": "16155",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "NRP",
+        "start": 447,
+        "end": 459,
+        "score": 0.85,
+        "text_span": "Roman Stream",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 471,
+        "end": 484,
+        "score": 0.85,
+        "text_span": "New Kellystad",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 489,
+        "end": 494,
+        "score": 0.85,
+        "text_span": "25704",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1410,
+        "end": 1438,
+        "score": 0.85,
+        "text_span": "the Confidential Information",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1478,
+        "end": 1506,
+        "score": 0.85,
+        "text_span": "the Confidential Information",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1597,
+        "end": 1621,
+        "score": 0.85,
+        "text_span": "Confidential Information",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1750,
+        "end": 1762,
+        "score": 0.85,
+        "text_span": "May 13, 2027",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1819,
+        "end": 1827,
+        "score": 0.85,
+        "text_span": "30) days",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1963,
+        "end": 1984,
+        "score": 0.85,
+        "text_span": "the State of New York",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 2111,
+        "end": 2123,
+        "score": 0.85,
+        "text_span": "Allison Hill",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 2151,
+        "end": 2157,
+        "score": 0.85,
+        "text_span": "Miller",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 2159,
+        "end": 2168,
+        "score": 0.85,
+        "text_span": "Henderson",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 2173,
+        "end": 2180,
+        "score": 0.85,
+        "text_span": "Johnson",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 2208,
+        "end": 2255,
+        "score": 0.85,
+        "text_span": "Noah Rhodes\nAuthorized Representative, Hall PLC",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 2266,
+        "end": 2281,
+        "score": 0.85,
+        "text_span": "Henry Santiago\n",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "URL",
+        "start": 341,
+        "end": 352,
+        "score": 0.5,
+        "text_span": "example.org",
+        "context": "",
+        "recognizer_name": "UrlRecognizer"
+      },
+      {
+        "entity_type": "URL",
+        "start": 520,
+        "end": 531,
+        "score": 0.5,
+        "text_span": "example.com",
+        "context": "",
+        "recognizer_name": "UrlRecognizer"
+      }
+    ],
+    "discharge_summary.txt": [
+      {
+        "entity_type": "DATE_TIME",
+        "start": 103,
+        "end": 113,
+        "score": 0.95,
+        "text_span": "01/27/1962",
+        "context": "",
+        "recognizer_name": "DateRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 310,
+        "end": 320,
+        "score": 0.95,
+        "text_span": "03/22/2026",
+        "context": "",
+        "recognizer_name": "DateRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 337,
+        "end": 347,
+        "score": 0.95,
+        "text_span": "04/04/2026",
+        "context": "",
+        "recognizer_name": "DateRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 10,
+        "end": 47,
+        "score": 0.85,
+        "text_span": "Sons Medical Center\nDISCHARGE SUMMARY",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 75,
+        "end": 87,
+        "score": 0.85,
+        "text_span": "James Powers",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "US_SSN",
+        "start": 138,
+        "end": 149,
+        "score": 0.85,
+        "text_span": "324-97-1189",
+        "context": "",
+        "recognizer_name": "UsSsnRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 193,
+        "end": 198,
+        "score": 0.85,
+        "text_span": "54278",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 199,
+        "end": 210,
+        "score": 0.85,
+        "text_span": "Carr Valley",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 227,
+        "end": 235,
+        "score": 0.85,
+        "text_span": "TN 14078",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 244,
+        "end": 256,
+        "score": 0.85,
+        "text_span": "541)718-2449",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 283,
+        "end": 292,
+        "score": 0.85,
+        "text_span": "Marc Hart",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 514,
+        "end": 526,
+        "score": 0.85,
+        "text_span": "James Powers",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 532,
+        "end": 543,
+        "score": 0.85,
+        "text_span": "66-year-old",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 629,
+        "end": 654,
+        "score": 0.85,
+        "text_span": "approximately three hours",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 983,
+        "end": 990,
+        "score": 0.85,
+        "text_span": "Cardiac",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1224,
+        "end": 1232,
+        "score": 0.85,
+        "text_span": "48 hours",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1297,
+        "end": 1302,
+        "score": 0.85,
+        "text_span": "daily",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1324,
+        "end": 1329,
+        "score": 0.85,
+        "text_span": "daily",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1333,
+        "end": 1348,
+        "score": 0.85,
+        "text_span": "Atorvastatin 40",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1352,
+        "end": 1357,
+        "score": 0.85,
+        "text_span": "daily",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1393,
+        "end": 1403,
+        "score": 0.85,
+        "text_span": "Lisinopril",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1410,
+        "end": 1415,
+        "score": 0.85,
+        "text_span": "daily",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1458,
+        "end": 1467,
+        "score": 0.85,
+        "text_span": "Marc Hart",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 1471,
+        "end": 1480,
+        "score": 0.85,
+        "text_span": "two weeks",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1482,
+        "end": 1489,
+        "score": 0.85,
+        "text_span": "Cardiac",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1562,
+        "end": 1571,
+        "score": 0.85,
+        "text_span": "Marc Hart",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 1582,
+        "end": 1602,
+        "score": 0.85,
+        "text_span": "Sons Medical Center\n",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 243,
+        "end": 256,
+        "score": 0.75,
+        "text_span": "(541)718-2449",
+        "context": "",
+        "recognizer_name": "PhoneRecognizer"
+      }
+    ],
+    "referral_letter.txt": [
+      {
+        "entity_type": "DATE_TIME",
+        "start": 320,
+        "end": 330,
+        "score": 0.95,
+        "text_span": "01/22/1995",
+        "context": "",
+        "recognizer_name": "DateRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 32,
+        "end": 46,
+        "score": 0.85,
+        "text_span": "Russell Canyon",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 48,
+        "end": 58,
+        "score": 0.85,
+        "text_span": "Michaelton",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 60,
+        "end": 62,
+        "score": 0.85,
+        "text_span": "MH",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 77,
+        "end": 95,
+        "score": 0.85,
+        "text_span": "902)756-3421x60733",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 97,
+        "end": 111,
+        "score": 0.85,
+        "text_span": "March 28, 2026",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 117,
+        "end": 128,
+        "score": 0.85,
+        "text_span": "Sarah Davis",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 129,
+        "end": 163,
+        "score": 0.85,
+        "text_span": "Figueroa PLC Cardiology Associates",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "LOCATION",
+        "start": 184,
+        "end": 197,
+        "score": 0.85,
+        "text_span": "East Michelle",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 243,
+        "end": 254,
+        "score": 0.85,
+        "text_span": "Sarah Davis",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 291,
+        "end": 303,
+        "score": 0.85,
+        "text_span": "Donald Smith",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 376,
+        "end": 388,
+        "score": 0.85,
+        "text_span": "Donald Smith",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 416,
+        "end": 436,
+        "score": 0.85,
+        "text_span": "the past three years",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 569,
+        "end": 588,
+        "score": 0.85,
+        "text_span": "the past two months",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "ORGANIZATION",
+        "start": 598,
+        "end": 601,
+        "score": 0.85,
+        "text_span": "ECG",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 682,
+        "end": 689,
+        "score": 0.85,
+        "text_span": "24-hour",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 690,
+        "end": 696,
+        "score": 0.85,
+        "text_span": "Holter",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "DATE_TIME",
+        "start": 884,
+        "end": 889,
+        "score": 0.85,
+        "text_span": "daily",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PERSON",
+        "start": 1240,
+        "end": 1255,
+        "score": 0.85,
+        "text_span": "Deborah Freeman",
+        "context": "",
+        "recognizer_name": "SpacyRecognizer"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 76,
+        "end": 95,
+        "score": 0.75,
+        "text_span": "(902)756-3421x60733",
+        "context": "",
+        "recognizer_name": "PhoneRecognizer"
+      },
+      {
+        "entity_type": "PHONE_NUMBER",
+        "start": 215,
+        "end": 232,
+        "score": 0.75,
+        "text_span": "733-203-6541x4586",
+        "context": "",
+        "recognizer_name": "PhoneRecognizer"
+      }
+    ]
+  }
+}
