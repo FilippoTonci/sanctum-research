@@ -40,15 +40,15 @@ models/                   downloaded weights (git-ignored, ~13 GB)
 ## Reproduce
 
 ```bash
-/opt/homebrew/bin/python3.12 -m venv .venv
-.venv/bin/pip install torch transformers 'gliner>=0.2.16' gliner2 peft \
-    huggingface_hub pandas matplotlib presidio-analyzer 'spacy>=3.8,<3.9' \
-    'thinc>=8.3.12,<8.4' 'spacy-curated-transformers<1.0' onnxruntime
-.venv/bin/python -m spacy download en_core_web_sm   # also _lg, _trf
-.venv/bin/python bench/download_models.py           # ~13 GB into ./models
-.venv/bin/python bench/run.py                       # ~10 min on an M-series Mac
-.venv/bin/python bench/report_tables.py
+make            # venv (pinned requirements.txt) + spaCy models + ~13 GB of weights + run + report
+make report     # rebuild results/tables.md, leaderboard.csv, tradeoff.png from cached predictions
+make inspect CONFIG="presidio+kg_pii_base" THR=0.2   # misses / false positives for one config
+make rerun      # force every config to run again (~10 min on an M-series Mac)
 ```
+
+The cached predictions in `results/preds/` are committed, so `make report`
+works without downloading any weights. Override the interpreter with
+`make PYTHON=/path/to/python3.12`.
 
 Nothing here imports Sanctum. The production Presidio setup
 (`sanctum/cli/commands.py::_create_engine`) is reproduced in

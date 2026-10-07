@@ -301,10 +301,9 @@ them.
 See [README.md](README.md#reproduce). In short:
 
 ```bash
-.venv/bin/python bench/download_models.py   # ~13 GB into ./models (git-ignored)
-.venv/bin/python bench/run.py               # cached in results/preds/
-.venv/bin/python bench/report_tables.py     # tables + chart
-.venv/bin/python bench/inspect_errors.py "presidio+kg_pii_base" hard 0.2
+make                                              # everything, ~13 GB into ./models (git-ignored)
+make report                                       # tables + chart from cached predictions
+make inspect CONFIG="presidio+kg_pii_base" THR=0.2
 ```
 
 Weights are in `models/<org>__<name>/`. `du -sh models/*` shows what each one
