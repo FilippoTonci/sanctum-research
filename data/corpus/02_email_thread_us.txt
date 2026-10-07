@@ -1,0 +1,31 @@
+From: [[PERSON|Marcus Delgado]] <[[EMAIL_ADDRESS|mdelgado@brightwater-legal.com]]>
+To: [[PERSON|Sandra Okafor]] <[[EMAIL_ADDRESS|sokafor@kestrelfoods.com]]>
+Cc: [[PERSON|Will Rich]] <[[EMAIL_ADDRESS|wrich@brightwater-legal.com]]>
+Date: [[DATE_TIME|Tue, 11 Mar 2025 16:42:07 -0500]]
+Subject: RE: Termination of [[PERSON|Dwayne]]'s contract - PRIVILEGED
+
+[[PERSON|Sandra]],
+
+Following our call this afternoon, I've reviewed the personnel file for [[PERSON|Dwayne Kowalczyk]]. A few points before HR sends the separation letter:
+
+- His start date was [[DATE_TIME|June 4, 2019]], so he is past the 5-year vesting cliff under the 2018 Equity Plan.
+- The file lists his SSN as [[US_SSN|512-48-7730]] and his home address as [[LOCATION|2207 Wildwood Ave, Apt 3B, Columbus, OH 43219]]. Please make sure the SSN is redacted from anything sent to the PEO.
+- Payroll shows direct deposit to account [[US_BANK_NUMBER|004417829951]] at [[ORGANIZATION|Huntington National Bank]].
+
+[[PERSON|Will]] is drafting the release. We should also loop in [[PERSON|Dr. Anita Shah]], who treated him after the forklift incident at the [[LOCATION|Groveport]] warehouse, because the ADA accommodation request is still open.
+
+Call me on my cell if anything changes: [[PHONE_NUMBER|(614) 555-0187]].
+
+[[PERSON|Marcus]]
+
+--
+[[PERSON|Marcus Delgado]] | Partner
+[[ORGANIZATION|Brightwater Legal Group LLP]]
+[[LOCATION|41 S High St, Suite 2900, Columbus, OH 43215]]
+[[URL|www.brightwater-legal.com]]
+
+-----Original Message-----
+From: [[PERSON|Sandra Okafor]]
+Sent: [[DATE_TIME|Tuesday, March 11, 2025 9:15 AM]]
+
+[[PERSON|Marcus]] - can we talk today? Leadership wants [[PERSON|Dwayne]] out by [[?DATE_TIME|end of next week]]. Our VP Ops, [[PERSON|Bryce Lindqvist]], says he has emails showing the timecard issue. - S.

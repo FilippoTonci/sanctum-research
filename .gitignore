@@ -69,3 +69,6 @@ tests/fixtures/office/public/
 # Coverage outputs produced by the new CI gate.
 coverage.xml
 htmlcov/
+
+# Downloaded model weights (kept local, see REPORT.md)
+models/

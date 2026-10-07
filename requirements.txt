@@ -1,0 +1,18 @@
+# Pinned to the versions REPORT.md was produced with (Python 3.12, macOS arm64).
+torch==2.14.1
+transformers==5.16.1
+gliner==0.2.29
+gliner2==2.0.0
+peft==0.21.2
+huggingface_hub==1.33.0
+onnxruntime==1.30.0
+sentencepiece==0.2.2
+protobuf==7.36.2
+presidio_analyzer==2.2.364
+spacy==3.8.16
+# spacy-curated-transformers >= 1.0 pulls thinc 9, which breaks spaCy 3.8
+thinc==8.3.13
+spacy-curated-transformers==0.3.1
+pandas==3.0.6
+matplotlib==3.11.2
+tqdm==4.70.1

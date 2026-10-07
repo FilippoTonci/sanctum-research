@@ -1,0 +1,19 @@
+STEERING COMMITTEE UPDATE - Project Fjord (week 38)
+
+Client: [[ORGANIZATION|Nordlys Energi ASA]]
+Sponsor: [[PERSON|Ragnhild Østby]] (EVP Operations)
+Engagement lead: [[PERSON|Søren Kjærgaard]], [[ORGANIZATION|Halvorsen & Lund Advisory]]
+
+Progress
+- Site visits completed at [[LOCATION|Kårstø]], [[LOCATION|Bergen]] and [[LOCATION|Luleå]]. Plant managers [[PERSON|Eirik Haugland]] and [[PERSON|Annika Lindström]] provided shift data for [[DATE_TIME|January-August 2025]].
+- Interviews with 14 operators; names withheld at the union's request (contact: [[PERSON|Mikko Virtanen]], [[ORGANIZATION|Industri Energi]]).
+- Data pipeline from the SCADA historian (OSIsoft PI) to the analytics workspace is live.
+
+Risks
+- The regulatory filing to [[?ORGANIZATION|NVE]] is due [[DATE_TIME|15 October]]; [[PERSON|Ragnhild]] to confirm sign-off authority.
+- Key-person dependency on [[PERSON|Ola]] (data engineer) who is on parental leave from [[DATE_TIME|1 November]].
+
+Next steps
+- Workshop with the CFO, [[PERSON|Thomas Aune]], on [[DATE_TIME|30 September]] in [[LOCATION|Oslo]] ([[LOCATION|Lysaker]] office, [[LOCATION|Lysaker Torg 35]]).
+- Dial-in for remote attendees: [[PHONE_NUMBER|+47 21 98 44 10]], PIN 559 210 #.
+- Questions to [[EMAIL_ADDRESS|soren.kjaergaard@halvorsenlund.no]].

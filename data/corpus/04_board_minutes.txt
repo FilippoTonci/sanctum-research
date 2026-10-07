@@ -1,0 +1,25 @@
+MINUTES OF A MEETING OF THE BOARD OF DIRECTORS
+[[ORGANIZATION|NORTHWIND ROBOTICS, INC.]]
+
+Held by videoconference on [[DATE_TIME|April 22, 2025]] at [[DATE_TIME|10:00 a.m. Pacific Time]].
+
+PRESENT: [[PERSON|Haruto Nakamura]] (Chair), [[PERSON|Fatima Al-Rashid]], [[PERSON|Christopher "Kit" Vance]], [[PERSON|Ngozi Eze]]
+ABSENT: [[PERSON|Paul Hendricks]]
+IN ATTENDANCE: [[PERSON|Rebecca Stone]] (General Counsel, acting as secretary); [[PERSON|Liam O'Sullivan]] of [[ORGANIZATION|Fenwick & Marsh LLP]]
+
+1. QUORUM. The Chair confirmed a quorum was present.
+
+2. SERIES C FINANCING. [[PERSON|Ms Al-Rashid]] reported on negotiations with [[ORGANIZATION|Tidewater Ventures]] and [[ORGANIZATION|Sequoia Ridge Capital]] for a $48 million Series C at a $310 million pre-money valuation. Following discussion, the Board RESOLVED to approve the term sheet dated [[DATE_TIME|April 15, 2025]].
+
+3. CEO COMPENSATION. [[PERSON|Mr Nakamura]] recused himself. The Compensation Committee recommended a base salary of $425,000 and a target bonus of 60%.
+
+4. PRODUCT. The CTO, [[PERSON|Ngozi]], presented the roadmap for the Atlas-3 picker arm and the migration of the fleet controller to Kubernetes 1.30. No PII-bearing data is stored in the telemetry pipeline.
+
+5. LITIGATION. Counsel updated the Board on [[?PERSON|Patel]] v. [[?ORGANIZATION|Northwind Robotics]], Case No. 3:24-cv-01187 ([[?LOCATION|N.D. Cal.]]). Plaintiff [[PERSON|Devika Patel]], a former warehouse technician, alleges retaliation under Cal. Lab. Code § 1102.5.
+
+6. OFFICE LEASE. The Board approved the lease of new premises at [[LOCATION|1550 Bryant Street, San Francisco, CA 94103]].
+
+There being no further business, the meeting adjourned at [[DATE_TIME|11:47 a.m.]]
+
+_____________________
+[[PERSON|Rebecca Stone]], Secretary

@@ -1,0 +1,21 @@
+COMMERCIAL LEASE AGREEMENT (English convenience translation)
+
+This Lease is entered into on [[DATE_TIME|17 September 2024]] in [[LOCATION|Milan]] between:
+
+(1) [[ORGANIZATION|Immobiliare Navigli S.r.l.]], with registered office at [[LOCATION|Via Ascanio Sforza 81, 20141 Milano (MI), Italy]], VAT no. [[ID_NUMBER|IT 09876543210]], represented by its sole director [[PERSON|Giulia Bianchi-Morandi]] (the "Landlord"); and
+
+(2) [[PERSON|Lorenzo De Santis]], born in [[LOCATION|Bari]] on [[DATE_TIME|02/11/1986]], tax code [[ID_NUMBER|DSNLNZ86S02A662K]], residing at [[LOCATION|Corso Buenos Aires 23, 20124 Milano]], acting on behalf of [[ORGANIZATION|Studio Grafico Lume]] (the "Tenant").
+
+Art. 1 - Premises. The Landlord leases to the Tenant the ground-floor unit (approx. 120 sqm) at [[LOCATION|Via Vigevano 9, Milan]], cadastral sheet 472, parcel 118.
+
+Art. 2 - Term. Six (6) years starting [[DATE_TIME|1 October 2024]], automatically renewed for a further six years unless terminated under Law 392/1978.
+
+Art. 3 - Rent. EUR 2,350 per month, payable in advance by the 5th of each month to IBAN [[IBAN_CODE|IT60 X054 2811 1010 0000 0123 456]] held at [[ORGANIZATION|Banca Popolare di Sondrio]].
+
+Art. 4 - Deposit. Three months' rent, to be returned within 60 days of release of the premises.
+
+Art. 9 - Notices. Notices to the Landlord: [[EMAIL_ADDRESS|amministrazione@immobiliarenavigli.it]] / PEC [[EMAIL_ADDRESS|navigli.srl@pec.it]]. Notices to the Tenant: [[EMAIL_ADDRESS|lorenzo.desantis@studiolume.it]], mobile [[PHONE_NUMBER|+39 347 218 9054]].
+
+Art. 12 - Governing law. Italian law. Exclusive jurisdiction of the [[?ORGANIZATION|Court of Milan]].
+
+Signed: [[PERSON|G. Bianchi-Morandi]]          Signed: [[PERSON|L. De Santis]]

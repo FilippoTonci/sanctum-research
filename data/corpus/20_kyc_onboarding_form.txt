@@ -1,0 +1,31 @@
+CLIENT ONBOARDING - KNOW YOUR CUSTOMER (INDIVIDUAL)
+
+Firm: [[ORGANIZATION|Ashby Laurent Wealth Management SA]], [[LOCATION|Rue du Rhône 62, 1204 Genève]]
+Relationship manager: [[PERSON|Matthias Kälin]]
+
+SECTION A - PERSONAL DETAILS
+Surname: [[PERSON|VAN DER BERG]]
+Given names: [[PERSON|Pieter Johannes]]
+Date of birth: [[DATE_TIME|1968-02-29]]
+Place of birth: [[LOCATION|Utrecht, Netherlands]]
+Nationality: Dutch
+Residential address: [[LOCATION|Keizersgracht 318-II, 1016 EZ Amsterdam]]
+Mobile: [[PHONE_NUMBER|+31 6 4123 8890]]
+Email: [[EMAIL_ADDRESS|pj.vanderberg@ziggo.nl]]
+Passport no.: [[ID_NUMBER|NWR8P2JX4]]   Expiry: [[DATE_TIME|11/2031]]
+Tax residence: [[?LOCATION|Netherlands]], TIN (BSN) [[ID_NUMBER|111222333]]
+
+SECTION B - EMPLOYMENT & SOURCE OF WEALTH
+Occupation: Former COO, [[ORGANIZATION|Brabant Maritime Holdings B.V.]] (retired [[DATE_TIME|2022]])
+Source of wealth: sale of shares in [[ORGANIZATION|Brabant Maritime]] to [[ORGANIZATION|Maersk]] (EUR 14.2m, [[DATE_TIME|2021]])
+Expected annual inflows: EUR 250k-500k
+
+SECTION C - BANKING
+Remitting account: [[ORGANIZATION|ABN AMRO]], IBAN [[IBAN_CODE|NL91 ABNA 0417 1643 00]]
+Credit card for fees: [[CREDIT_CARD|5425 2334 3010 9903]]
+
+SECTION D - PEP / SANCTIONS
+Is the client a politically exposed person? NO
+Close associates: spouse [[PERSON|Ingrid van der Berg-Holm]] (Swedish national, born [[DATE_TIME|14.07.1971]])
+
+Screening completed by [[PERSON|L. Moreau]] on [[DATE_TIME|2 September 2025]] - no hits (World-Check ref [[ID_NUMBER|WC-8842-19930]]).

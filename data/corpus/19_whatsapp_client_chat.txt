@@ -1,0 +1,10 @@
+[[DATE_TIME|14/08/2025]], 21:07 - [[?PERSON|Nadia]]: hi it's [[PERSON|nadia]] from the estate agency, is this still the number for [[PERSON|mr okoro]]?
+[[DATE_TIME|14/08/2025]], 21:09 - [[?PERSON|Chidi Okoro]]: yes speaking
+[[DATE_TIME|14/08/2025]], 21:10 - [[?PERSON|Nadia]]: great. the vendor's solicitor [[PERSON|ms henderson]] needs your id for AML before exchange
+[[DATE_TIME|14/08/2025]], 21:12 - [[?PERSON|Chidi Okoro]]: ok my passport number is [[ID_NUMBER|128844719]] and my date of birth is [[DATE_TIME|5th june 1984]]
+[[DATE_TIME|14/08/2025]], 21:12 - [[?PERSON|Chidi Okoro]]: current address [[LOCATION|flat 9 harrow court 41 kilburn high road london nw6 7js]]
+[[DATE_TIME|14/08/2025]], 21:13 - [[?PERSON|Chidi Okoro]]: my wife [[PERSON|adaeze]] is joint purchaser, her email is [[EMAIL_ADDRESS|adaeze.okoro84@outlook.com]]
+[[DATE_TIME|14/08/2025]], 21:15 - [[?PERSON|Nadia]]: perfect thank you. completion is pencilled for [[DATE_TIME|the 29th]], [[PERSON|jenny]] at [[ORGANIZATION|clarke & moss]] will send the deposit details
+[[DATE_TIME|14/08/2025]], 21:16 - [[?PERSON|Chidi Okoro]]: is it ok to send the deposit to sort code 30-94-57 acc [[US_BANK_NUMBER|21447790]]? thats what [[PERSON|jenny]] emailed me
+[[DATE_TIME|14/08/2025]], 21:18 - [[?PERSON|Nadia]]: NO please call [[PERSON|jenny]] on [[PHONE_NUMBER|020 8123 4477]] first to verify, we've had fraud attempts this month
+[[DATE_TIME|14/08/2025]], 21:19 - [[?PERSON|Chidi Okoro]]: oh wow ok will do, thanks [[PERSON|nadia]]

@@ -1,0 +1,24 @@
+LEGAL DUE DILIGENCE REPORT - RED FLAG SUMMARY
+Target: [[ORGANIZATION|Rheinwerk Antriebstechnik GmbH]] ("Target")
+Prepared for: [[ORGANIZATION|Alpenglow Capital Partners]]
+Prepared by: [[ORGANIZATION|Kessler Brandt Rechtsanwälte PartG mbB]], [[LOCATION|Königsallee 60, 40212 Düsseldorf]]
+Status: [[DATE_TIME|12.03.2025]]
+
+1. Corporate
+The Target is registered with the commercial register of the [[?ORGANIZATION|Local Court of Düsseldorf]] under HRB 88213. Managing directors: [[PERSON|Dr. Klaus-Dieter Hoffmann]] (born [[DATE_TIME|07.05.1961]]) and [[PERSON|Sabine Wöhrle]]. Sole shareholder is [[ORGANIZATION|Hoffmann Familien-Holding GmbH & Co. KG]].
+
+2. Employment
+2.1 Change-of-control bonus: the service agreement of [[PERSON|Mr Hoffmann]] entitles him to 24 months' salary (approx. EUR 640,000) on a change of control.
+2.2 Works council: the chair, [[PERSON|Jürgen Ostermann]], has signalled opposition to the planned relocation to [[LOCATION|Brno, Czech Republic]].
+2.3 One pending unfair-dismissal claim by [[PERSON|Ms Elif Arslan]] (hearing on [[DATE_TIME|2 June 2025]]).
+
+3. Real estate
+Leased production site at [[LOCATION|Industriestraße 14-18, 47829 Krefeld]] from [[ORGANIZATION|Niederrhein Gewerbepark AG]]; lease expires [[DATE_TIME|31.12.2027]].
+
+4. Banking
+Main account with [[ORGANIZATION|Commerzbank]], IBAN [[IBAN_CODE|DE89 3704 0044 0532 0130 00]]. Revolving facility with [[ORGANIZATION|Deutsche Bank AG]] (EUR 15m) contains a change-of-control clause.
+
+5. Data protection
+The Target's data protection officer, [[PERSON|Thomas Brückner]] ([[EMAIL_ADDRESS|datenschutz@rheinwerk-at.de]], [[PHONE_NUMBER|+49 2151 9384 220]]), could not produce a record of processing activities under Art. 30 GDPR. The CRM is hosted at [[URL|https://crm.rheinwerk-at.de]] on a server with IP [[IP_ADDRESS|91.198.174.192]].
+
+Contact for queries: [[PERSON|Dr. Annika Vogt]], Partner, [[EMAIL_ADDRESS|a.vogt@kessler-brandt.de]].

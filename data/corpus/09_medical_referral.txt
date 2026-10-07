@@ -1,0 +1,28 @@
+[[ORGANIZATION|ST. AIDAN'S HOSPITAL NHS FOUNDATION TRUST]]
+Department of Neurology
+[[LOCATION|Ashby Road, Loughborough LE11 3TU]]
+
+[[DATE_TIME|28 July 2025]]
+
+To: [[PERSON|Dr Farah Siddiqui]], GP
+[[ORGANIZATION|Meadowbank Surgery]], [[LOCATION|19 Cedar Lane, Leicester LE2 8JX]]
+
+Re: [[PERSON|Mrs Bronwyn Llewellyn-Jones]]   DOB: [[DATE_TIME|03/09/1962]]   NHS No: [[ID_NUMBER|943 476 5919]]   Hosp No: [[ID_NUMBER|RX8841207]]
+Address: [[LOCATION|Ty Gwyn, 5 Heol y Bryn, Abergavenny NP7 5DL]]
+
+Dear [[PERSON|Dr Siddiqui]],
+
+Thank you for referring this 62-year-old retired schoolteacher, whom I saw in clinic on [[DATE_TIME|24 July]]. She is accompanied by her husband [[PERSON|Gareth]].
+
+History: 18-month history of right-hand tremor, worse at rest, with micrographia noted by her daughter [[PERSON|Ffion]]. No falls. She takes amlodipine 5 mg and atorvastatin 20 mg. Her brother was diagnosed with Parkinson's disease at the [[ORGANIZATION|Walton Centre]] in [[DATE_TIME|2019]].
+
+Examination: asymmetric rest tremor and cogwheel rigidity on the right. Mild bradykinesia. Cognition intact (MoCA 28/30).
+
+Impression: findings consistent with idiopathic Parkinson's disease. I have requested a DaTscan and started co-careldopa 25/100 mg three times daily.
+
+Plan: review in 3 months with my registrar, [[PERSON|Dr Kwame Asante]]. She may contact the Parkinson's nurse specialist, [[PERSON|Joanne]], on [[PHONE_NUMBER|01509 564 210]] or [[EMAIL_ADDRESS|neuro.pdnurse@staidans.nhs.uk]].
+
+Yours sincerely,
+
+[[PERSON|Dr Henrietta Okonkwo-Blake]] MD FRCP
+Consultant Neurologist

@@ -1,0 +1,20 @@
+SETTLEMENT AGREEMENT
+
+Dated [[DATE_TIME|28 November 2024]]
+
+Parties:
+(A) [[ORGANIZATION|Grupo Alimentario Sierra Nevada, S.A.]], with tax ID [[?ID_NUMBER|A-18456732]] and address at [[LOCATION|Calle Recogidas 24, 18005 Granada, Spain]] ("[[?ORGANIZATION|GASN]]");
+(B) [[PERSON|María José Fernández-Castillo]], with DNI [[ID_NUMBER|48291736-K]], residing at [[LOCATION|Avenida de la Constitución 7, 3º B, 41001 Sevilla]] ("the Employee").
+
+Recitals:
+(i) The Employee worked as Quality Director for [[?ORGANIZATION|GASN]] from [[DATE_TIME|15 January 2015]] until [[DATE_TIME|30 September 2024]].
+(ii) On [[DATE_TIME|14 October 2024]] the Employee filed a claim for unfair dismissal before the [[?ORGANIZATION|Social Court No. 3 of Seville]].
+
+Terms:
+1. [[?ORGANIZATION|GASN]] shall pay the Employee a gross sum of EUR 96,500 within ten (10) days by transfer to IBAN [[IBAN_CODE|ES91 2100 0418 4502 0005 1332]].
+2. The Employee shall withdraw the claim and return company property, including the laptop (serial number 5CD2141XYZ) and the corporate [[?ORGANIZATION|Amex]] card.
+3. Neither party shall make disparaging statements. [[?ORGANIZATION|GASN]] shall instruct its CEO, [[PERSON|D. Ignacio Ruiz de Alarcón]], and its HR Director, [[PERSON|Dña. Pilar Medina]], accordingly.
+4. A reference letter will be signed by [[PERSON|Pilar Medina]].
+5. Communications: [[?ORGANIZATION|GASN]] - [[EMAIL_ADDRESS|legal@gasn.es]]; Employee's counsel - [[PERSON|Álvaro Quintana]], [[ORGANIZATION|Quintana Abogados]], [[EMAIL_ADDRESS|aquintana@quintanaabogados.es]], [[PHONE_NUMBER|+34 954 21 88 30]].
+
+Signed in [[LOCATION|Seville]].
