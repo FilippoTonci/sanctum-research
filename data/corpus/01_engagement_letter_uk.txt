@@ -1,0 +1,35 @@
+PRIVATE & CONFIDENTIAL
+
+[[ORGANIZATION|Hartwell Pryce LLP]]
+[[LOCATION|14 Bedford Row, London WC1R 4ED]]
+Tel: [[PHONE_NUMBER|+44 20 7946 0321]]
+
+[[DATE_TIME|3 February 2025]]
+
+[[PERSON|Ms Imogen Fairclough-Tate]]
+Chief Financial Officer
+[[ORGANIZATION|Brackenridge Analytics Ltd]]
+[[LOCATION|Unit 7, Quayside Park, Bristol BS1 6QP]]
+
+Dear [[PERSON|Imogen]],
+
+Re: Engagement for advice on the proposed acquisition of [[ORGANIZATION|Lumen Haulage Group]]
+
+Thank you for instructing [[ORGANIZATION|Hartwell Pryce]] in connection with the above matter. This letter sets out the terms on which we will act for [[ORGANIZATION|Brackenridge Analytics Ltd]] (the "Client").
+
+1. Scope. We will advise on the share purchase agreement, conduct legal due diligence and negotiate the disclosure letter. We will not advise on tax structuring, which [[PERSON|Mr Rajesh Venkataraman]] of [[ORGANIZATION|Oakhurst Tax Partners]] will handle separately.
+
+2. Team. The partner responsible is [[PERSON|Eleanor Whitcombe]] ([[EMAIL_ADDRESS|e.whitcombe@hartwellpryce.co.uk]], direct line [[PHONE_NUMBER|020 7946 0388]]). She will be assisted by [[PERSON|Tomás Ferreira]], senior associate, and trainee [[PERSON|Grace Park]].
+
+3. Fees. Our hourly rates range from £245 to £690 plus VAT. We estimate fees of £85,000 to £110,000 for Phase 1, subject to Clause 9.
+
+4. Money laundering checks. Under the Money Laundering Regulations 2017 we must verify the identity of the Client's directors. Please provide a certified copy of the passport of each director; for [[PERSON|Ms Fairclough-Tate]] we already hold passport no. [[ID_NUMBER|533829104]].
+
+5. Payment. Invoices are payable within 30 days to our client account at [[ORGANIZATION|Barclays Bank]], sort code 20-45-77, account [[US_BANK_NUMBER|43871102]], IBAN [[IBAN_CODE|GB33 BUKB 2045 7743 8711 02]].
+
+Please sign and return a copy of this letter by [[DATE_TIME|14 February 2025]].
+
+Yours sincerely,
+
+[[PERSON|Eleanor Whitcombe]]
+Partner, [[ORGANIZATION|Hartwell Pryce LLP]]

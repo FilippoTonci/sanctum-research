@@ -1,67 +1,63 @@
 # sanctum-research
 
-Evaluation playground for [Sanctum](https://github.com/FilippoTonci/sanctum) —
-exploratory notebooks, model benchmarks, and cached prediction artifacts
-that don't belong in the production repo.
+Evaluation playground for [Sanctum](https://github.com/FilippoTonci/sanctum):
+model benchmarks, exploratory notebooks and cached predictions that don't
+belong in the production repo.
 
-Kept separate so the main codebase stays airgap-clean: the research
-workflows pull transformer weights from HuggingFace on first run,
-which would otherwise break Sanctum's "no runtime network calls"
-invariant.
+It is kept separate so the main codebase stays airgap-clean. The research
+workflows pull transformer weights from Hugging Face, which would break
+Sanctum's "no runtime network calls" rule.
 
-![Example Results](/assets/heatmap.png)
+**Latest result:** [`REPORT.md`](REPORT.md) recommends a default NER model
+to ship with Sanctum.
 
+![Accuracy vs size](results/tradeoff.png)
 
 ## Layout
 
 ```
-notebooks/
-  pii_model_benchmark.ipynb    small-transformer PII/NER models vs Sanctum's Presidio baseline
-  bench_results/               cached per-model predictions (JSON, one file per model)
+REPORT.md                 recommendation + findings (start here)
+bench/
+  download_models.py      fetch every benchmarked checkpoint into ./models/
+  corpus.py               load the two evaluation corpora
+  predictors.py           model wrappers + the registry of benchmark configs
+  run.py                  run configs (one subprocess each), cache predictions
+  score.py                overlap-based metrics (leak recall, typed F1/F2, ...)
+  report_tables.py        cross-validated leaderboard + chart -> results/
+  postprocess.py          document-level name propagation experiment
+  inspect_errors.py       print misses / false positives for one config
+data/
+  corpus/                 22 hand-annotated hard documents (inline markup)
+  sanctum_fixtures/       copy of sanctum/tests/fixtures (12 Faker docs)
+results/
+  preds/                  cached predictions per config (all thresholds)
+  leaderboard.csv         one row per config, CV-tuned + default thresholds
+  tables.md               markdown tables used in REPORT.md
+  tradeoff.png            accuracy vs size chart
+models/                   downloaded weights (git-ignored, ~13 GB)
 ```
 
-## Prerequisites
+## Reproduce
 
-This repo expects a sibling Sanctum checkout so notebooks can import
-the production pipeline and read the fixture corpus:
-
+```bash
+/opt/homebrew/bin/python3.12 -m venv .venv
+.venv/bin/pip install torch transformers 'gliner>=0.2.16' gliner2 peft \
+    huggingface_hub pandas matplotlib presidio-analyzer 'spacy>=3.8,<3.9' \
+    'thinc>=8.3.12,<8.4' 'spacy-curated-transformers<1.0' onnxruntime
+.venv/bin/python -m spacy download en_core_web_sm   # also _lg, _trf
+.venv/bin/python bench/download_models.py           # ~13 GB into ./models
+.venv/bin/python bench/run.py                       # ~10 min on an M-series Mac
+.venv/bin/python bench/report_tables.py
 ```
-projects/
-├── sanctum/              # main repo — https://github.com/FilippoTonci/sanctum
-└── sanctum-research/     # this repo
-```
 
-Override the default location with the `SANCTUM_ROOT` environment
-variable if your layout differs.
+Nothing here imports Sanctum. The production Presidio setup
+(`sanctum/cli/commands.py::_create_engine`) is reproduced in
+`bench/predictors.py::presidio_predictor`, so the numbers match what the CLI
+and desktop sidecar would produce.
 
-## Running the notebooks
+GLiNER v1 checkpoints still fetch their backbone config and tokenizer by Hub
+id (for example `microsoft/deberta-v3-base`). `run.py` points `HF_HOME` at
+`models/_hf_cache` so those files also stay inside this repo.
 
-1. Create a virtualenv and install the notebook dependencies. The
-   install cell at the top of `pii_model_benchmark.ipynb` lists them
-   (torch CPU wheel, transformers, gliner, pandas, matplotlib,
-   ipywidgets, tqdm).
-2. Make sure the sibling `sanctum/` checkout has its dev env set up
-   (`pip install -e .` + the spaCy model) — the notebook imports
-   `sanctum.core`, `sanctum.analyzer`, and `tests.evaluation.scorer`
-   from there.
-3. Open `notebooks/pii_model_benchmark.ipynb` and run top-to-bottom.
-   Cached results under `bench_results/` let you re-score without
-   reloading any model; delete a file to force a re-run for that
-   model.
-
-Disk footprint for the default model set is ≈ 3.5 GB in
-`~/.cache/huggingface/`. Expect 2–8 minutes per model on CPU.
-
-## What's in the benchmark
-
-The notebook compares Sanctum's Presidio baseline against a set of
-small transformer models (GLiNER variants, Stanford/obi clinical
-de-id, Piiranha, DeBERTa-based PII fine-tunes) on the 12-document
-fixture corpus shipped in `sanctum/tests/fixtures/`. Scoring uses
-Sanctum's overlap-matched, type-aware `EntityScorer`, so numbers are
-directly comparable to `pytest -m evaluation` output in the main
-repo.
-
-Licence-restricted models (Piiranha, Isotonic) are included as
-reference numbers only — they cannot ship in a commercial Sanctum
-build.
+The earlier notebook round (7 models on the 12 Sanctum fixtures) was removed;
+`bench/` replaces it and is still in git history.

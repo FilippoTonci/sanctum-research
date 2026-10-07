@@ -1,0 +1,26 @@
+[[ORGANIZATION|Meridian Strategy Group]]
+[[LOCATION|One Raffles Quay, #18-01 North Tower, Singapore 048583]]
+
+[[DATE_TIME|10 January 2025]]
+
+The Visa Section
+[[?ORGANIZATION|Embassy of Japan]], [[LOCATION|Singapore]]
+
+To whom it may concern,
+
+Re: Business visa application - [[PERSON|Mr. Arjun Krishnamurthy]] (Passport No. [[ID_NUMBER|Z4471820]])
+
+We confirm that [[PERSON|Mr. Arjun Krishnamurthy]], born [[DATE_TIME|21 August 1990]] in [[LOCATION|Chennai, India]], has been employed by [[ORGANIZATION|Meridian Strategy Group]] as an Engagement Manager since [[DATE_TIME|March 2021]].
+
+He will travel to [[LOCATION|Tokyo]] from [[DATE_TIME|3 February]] to [[DATE_TIME|14 February 2025]] to attend client workshops with [[ORGANIZATION|Sumitomo Kensetsu K.K.]] at their offices in [[LOCATION|Marunouchi]]. He will be accompanied by our Partner, [[PERSON|Ms. Wang Xiulan]], and a senior consultant, [[PERSON|Mr. Park Ji-hoon]].
+
+All travel and accommodation costs will be borne by our firm. During his stay he can be contacted at [[PHONE_NUMBER|+65 9123 4567]] or [[EMAIL_ADDRESS|arjun.k@meridiansg.com]].
+
+His residential address in [[LOCATION|Singapore]] is [[LOCATION|Blk 112 Bishan Street 12, #07-215, Singapore 570112]], NRIC/FIN [[ID_NUMBER|G1234567N]].
+
+Should you require any further information, please contact the undersigned.
+
+Yours faithfully,
+
+[[PERSON|Tan Wei Ming]]
+Head of People Operations

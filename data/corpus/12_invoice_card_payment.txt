@@ -1,0 +1,28 @@
+INVOICE #INV-2025-00871
+
+From:
+[[ORGANIZATION|Pemberton Forensic Accounting LLC]]
+[[LOCATION|900 Peachtree St NE, Suite 1450, Atlanta, GA 30309]]
+EIN [[?ID_NUMBER|58-2219034]]  |  [[PHONE_NUMBER|404-555-0162]]  |  [[EMAIL_ADDRESS|billing@pembertonforensic.com]]
+
+Bill to:
+[[PERSON|Ms. Lakshmi Narayanan]], Esq.
+[[ORGANIZATION|Narayanan & Cole PLLC]]
+[[LOCATION|3300 Oak Lawn Ave, Dallas, TX 75219]]
+
+Invoice date: [[DATE_TIME|August 1, 2025]]
+Due date: [[DATE_TIME|August 31, 2025]]
+Matter: [[?PERSON|Harlow]] Estate - asset tracing (ref. NC-7714)
+
+Description                                   Hours    Rate      Amount
+Review of brokerage statements ([[ORGANIZATION|Schwab]])        12.5    $325    $4,062.50
+Interview of [[PERSON|Mr. Dennis Harlow Jr.]]                 2.0    $325      $650.00
+Expert report drafting                         18.0    $375    $6,750.00
+                                                         Subtotal $11,462.50
+                                                         Paid       $5,000.00
+                                                         BALANCE DUE $6,462.50
+
+Payment received [[DATE_TIME|07/15/2025]] by [[?ORGANIZATION|Visa]] ending [[?CREDIT_CARD|4417]]; full card [[CREDIT_CARD|4532 0151 1283 0366]], exp 09/27, cardholder [[PERSON|LAKSHMI NARAYANAN]].
+Driver's license on file for identity check: [[US_DRIVER_LICENSE|TX 18837702]].
+
+Thank you for your business. Questions? Contact [[PERSON|Dana Pemberton]], CPA, CFE.

@@ -1,0 +1,27 @@
+CONFIDENTIAL - HR INVESTIGATION REPORT
+Case ref: [[ID_NUMBER|HRI-2025-031]]
+Investigator: [[PERSON|Hope Summers]], Employee Relations
+Date of report: [[DATE_TIME|9 May 2025]]
+
+1. Background
+On [[DATE_TIME|14 April 2025]], [[PERSON|Faith Goodwin]] (Account Manager, Sales) raised a grievance alleging that her line manager, [[PERSON|Mark Price]], made repeated comments about her age and excluded her from the [[?ORGANIZATION|Summit]] account handover. The grievance was received by [[PERSON|Robin Banks]] in HR.
+
+2. Witnesses interviewed
+- [[PERSON|Faith Goodwin]] (complainant) - interviewed [[DATE_TIME|17 April]]
+- [[PERSON|Mark Price]] (respondent) - interviewed [[DATE_TIME|22 April]]
+- [[PERSON|Joy Chang]], Sales Executive - interviewed [[DATE_TIME|23 April]]
+- [[PERSON|Sunny Deol-Marsh]], Regional Director - interviewed [[DATE_TIME|25 April]]
+- [[PERSON|Bill]] from Facilities (CCTV request only)
+
+3. Findings
+3.1 [[PERSON|Joy]] corroborated that at the team offsite in [[LOCATION|Lake Geneva]] [[PERSON|Mr Price]] said, in front of the team, that [[PERSON|Faith]] was "past her best" and should "leave the big deals to the young guns".
+3.2 [[PERSON|Mr Price]] accepts making a comment but says it was a joke. He says [[PERSON|Ms Goodwin]] was removed from the [[?ORGANIZATION|Summit]] account because the client, [[ORGANIZATION|Summit Health Partners]], requested a change. No evidence of that request was produced. The client contact, [[PERSON|Grant Fisher]], has not responded to our email.
+3.3 Price lists and margin data referenced in the grievance were not relevant to the allegations. Summer pricing promotions were excluded from review.
+
+4. Conclusion
+The allegation of age-related comments is upheld. The allegation regarding the account removal is upheld on the balance of probabilities.
+
+5. Recommendations
+Disciplinary hearing for [[PERSON|Mr Price]]; mediation offered to [[PERSON|Ms Goodwin]]; refresher training for the Sales leadership team, including [[PERSON|Sunny]].
+
+Distribution: [[PERSON|Robin Banks]] (HR Director); [[PERSON|Carol Singer]] (General Counsel)

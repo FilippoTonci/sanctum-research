@@ -1,0 +1,19 @@
+Project Kingfisher - Expert interview notes
+Interviewer: [[PERSON|Amelia Brooks]] ([[ORGANIZATION|Calder & Finch Consulting]])
+Date: [[DATE_TIME|19/06/2025]], 45 min, Teams
+
+Interviewee: [[PERSON|Dr. Oluwaseun Adeyemi]], former Head of Supply Chain at [[ORGANIZATION|Verdana Pharmaceuticals]] (left [[DATE_TIME|2023]]). Currently independent; reachable at [[EMAIL_ADDRESS|seun.adeyemi@protonmail.com]] / [[PHONE_NUMBER|+44 7911 123456]].
+
+Key points
+- [[ORGANIZATION|Verdana]]'s two main API suppliers are [[ORGANIZATION|Hetero Labs]] ([[LOCATION|Hyderabad]]) and [[ORGANIZATION|Zhejiang Huahai]]. Single-sourcing risk on the oncology line.
+- [[PERSON|Seun]] says the CDMO contract with [[ORGANIZATION|Lonza]] renews in [[DATE_TIME|Q1 2026]]; pricing pressure ~8-12%.
+- The VP Procurement who replaced him, [[PERSON|Mei-Ling Zhou]], is "much more cost-focused". He suggested we speak with [[PERSON|Bart van der Linden]] at [[ORGANIZATION|Brenntag]] for a distributor view.
+- Plant in [[LOCATION|Ringaskiddy, Co. Cork]] is running at ~70% utilisation; a second line was shelved in [[DATE_TIME|late 2024]].
+- Mentioned that the CFO, [[PERSON|Jean-Baptiste Moreau]], is pushing to sell the generics unit to [[ORGANIZATION|Teva]] or a PE buyer.
+
+Compliance
+- Expert confirmed no MNPI shared. Compliance call logged by [[PERSON|Raj]] from the expert network ([[ORGANIZATION|GLG]]), ref [[ID_NUMBER|GLG-CN-448210]].
+
+Follow-ups
+- Send thank-you + honorarium ($900) via [[ORGANIZATION|GLG]].
+- [[PERSON|Amelia]] to draft synthesis for [[PERSON|Henrik]] by [[DATE_TIME|Monday 23 June]].

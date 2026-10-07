@@ -1,0 +1,17 @@
+MEMORANDUM
+
+To: [[PERSON|Antoine Lefebvre]], Managing Partner
+From: [[PERSON|Camille Rousseau-Benali]]
+Date: [[DATE_TIME|5 March 2025]]
+Re: [[ORGANIZATION|Maison Delacroix SAS]] - employee data transfer to the [[?LOCATION|US]]
+
+1. [[ORGANIZATION|Maison Delacroix]] ([[LOCATION|Paris]], SIREN [[?ID_NUMBER|552 081 317]]) intends to migrate its HR system to [[?ORGANIZATION|Workday]] hosted in the [[?LOCATION|United States]]. The client contact is the DPO, [[PERSON|Mme Hélène Garnier]] ([[EMAIL_ADDRESS|h.garnier@maisondelacroix.fr]], [[PHONE_NUMBER|+33 1 42 68 53 00]]).
+
+2. The dataset includes, for each of the 1,240 French employees: name, social security number (NIR), date of birth, home address and bank details. A sample row provided to us reads:
+   [[PERSON|Mathieu Girard]] - NIR [[ID_NUMBER|1 84 12 75 115 042 63]] - né le [[DATE_TIME|14/12/1984]] - [[LOCATION|12 rue des Martyrs, 75009 Paris]] - IBAN [[IBAN_CODE|FR76 3000 6000 0112 3456 7890 189]].
+
+3. Because the transfer relies on the EU-US Data Privacy Framework, we must confirm [[?ORGANIZATION|Workday]]'s certification and update the employee privacy notice. A works council (CSE) consultation is also required; the CSE secretary is [[PERSON|Karim Haddad]].
+
+4. [[PERSON|Antoine]], I suggest we propose a fixed fee of EUR 18,000 for the transfer impact assessment. [[PERSON|Léa]] in our [[LOCATION|Lyon]] office can support on the CSE side.
+
+[[PERSON|C.R.-B.]]

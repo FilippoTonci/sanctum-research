@@ -1,0 +1,20 @@
+TECHNICAL MEMO - Document automation pilot
+
+Summary
+The pilot evaluated three tools for clause extraction: [[?ORGANIZATION|Kira]], [[?ORGANIZATION|Luminance]] and an in-house prototype built on Python 3.12 and spaCy. Accuracy on the CUAD benchmark was 0.81, 0.84 and 0.77 respectively.
+
+Architecture
+- Documents are uploaded via SharePoint and converted with [[?ORGANIZATION|Apache]] Tika 2.9.
+- The parsing service runs on [[?ORGANIZATION|AWS]] Lambda (eu-west-2) behind an API Gateway; logs go to CloudWatch.
+- Models are versioned in MLflow; the current release is v1.4.0-rc2.
+- The test server is reachable at localhost:8080 and [[?IP_ADDRESS|127.0.0.1]] only; no public endpoints.
+
+Findings
+1. Clause 7.2 (Limitation of Liability) and Schedule 3 (Service Levels) were extracted correctly in 92% of NDAs.
+2. The Jaguar and Mercury templates confused the classifier because the product names look like party names.
+3. Defined terms such as "the Discloser", "the Recipient" and "Affiliate" should not be redacted.
+4. Monetary thresholds (e.g. USD 2,500,000) and percentages are business terms, not personal data.
+5. Article 28 GDPR and Section 1798.100 CCPA references are statutory citations, not PII.
+
+Recommendation
+Proceed with [[?ORGANIZATION|Luminance]] for the June release; budget GBP 140k for year one. Revisit after the [[?ORGANIZATION|Microsoft]] Copilot integration ships in Q4.

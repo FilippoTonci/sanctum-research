@@ -1,0 +1,33 @@
+IN THE HIGH COURT OF JUSTICE
+BUSINESS AND PROPERTY COURTS OF ENGLAND AND WALES
+Claim No. BL-2024-000913
+
+BETWEEN:
+[[ORGANIZATION|ASHGROVE MARINE SERVICES LIMITED]]
+Claimant
+-and-
+(1) [[PERSON|DESMOND OYELARAN]]
+(2) [[ORGANIZATION|BLUEFIN LOGISTICS (UK) LIMITED]]
+Defendants
+
+WITNESS STATEMENT OF [[PERSON|CHARLOTTE ROSE HILL]]
+
+I, [[PERSON|Charlotte Rose Hill]], of [[LOCATION|Flat 4, 22 Marine Parade, Brighton BN2 1TL]], will say as follows:
+
+1. I am the Finance Director of the Claimant and have held that role since [[DATE_TIME|January 2018]]. I make this statement from my own knowledge unless otherwise stated.
+
+2. I first met the First Defendant, [[PERSON|Mr Oyelaran]], in or around [[DATE_TIME|March 2016]] when he joined the Claimant as Operations Manager. He reported to our then Managing Director, [[PERSON|Mr Hugh Penhaligon]].
+
+3. On [[DATE_TIME|9 August 2023]] I noticed three payments totalling £184,250 to an account in the name of [[ORGANIZATION|Bluefin Logistics]] at [[ORGANIZATION|Monzo]], IBAN [[IBAN_CODE|GB21 MONZ 0400 0412 3456 78]]. None of the invoices had been approved by me or by our Procurement Lead, [[PERSON|Siobhan Gallagher]].
+
+4. I telephoned [[PERSON|Mr Oyelaran]] on his mobile ([[PHONE_NUMBER|07700 900461]]) at about [[DATE_TIME|4.15pm]] that day. He told me the payments were for "dry-dock storage at [[LOCATION|Falmouth]]".
+
+5. I later learned from [[?ORGANIZATION|Companies House]] records that the sole director of the Second Defendant is [[PERSON|Ms Abena Oyelaran]], who I understand to be the First Defendant's sister. Her date of birth is given as [[DATE_TIME|14 May 1981]] and her service address as [[LOCATION|8 Wharf Road, Cardiff CF10 5HT]].
+
+6. Exhibited to this statement as "CRH-1" is a bundle of the relevant bank statements.
+
+Statement of truth
+I believe that the facts stated in this witness statement are true.
+
+Signed: [[PERSON|C. R. Hill]]
+Dated: [[DATE_TIME|21 October 2024]]

@@ -1,0 +1,16 @@
+#deal-room-orion  (exported [[DATE_TIME|2025-05-06]])
+
+[09:02] [[?PERSON|priya.r]]: morning all. call w/ the target's founders moved to [[?DATE_TIME|2pm]]
+[09:03] [[?PERSON|jonas]]: which founders? just [[PERSON|kemal]] or [[PERSON|aylin]] too
+[09:03] [[?PERSON|priya.r]]: both. [[PERSON|kemal yildiz]] and [[PERSON|aylin demir]]. their counsel is someone from [[ORGANIZATION|baker voss]]
+[09:05] [[?PERSON|jonas]]: ok. fyi their cap table still lists an angel, [[PERSON|tom brennan]], w/ 2.1%
+[09:06] [[?PERSON|priya.r]]: yeah he's the guy from [[ORGANIZATION|stripe]]. his email on the SAFE is [[EMAIL_ADDRESS|tbrennan.angel@gmail.com]]
+[09:10] [[?PERSON|marco]]: dataroom link if anyone needs it [[URL|https://dataroom.orion-dd.io/r/7f3a9c]] pw in 1pass
+[09:11] [[?PERSON|jonas]]: can someone ping [[PERSON|sofia]] in finance? she has the bank details for the escrow
+[09:14] [[?PERSON|sofia.k]]: here. escrow acct is at [[ORGANIZATION|first republic]]... wait no, [[ORGANIZATION|jpmorgan]] now. acct [[US_BANK_NUMBER|9184402276]] routing [[ID_NUMBER|021000021]]
+[09:15] [[?PERSON|priya.r]]: pls don't paste acct numbers in slack 🙃
+[09:15] [[?PERSON|sofia.k]]: sorry!! deleting after the call
+[09:20] [[?PERSON|marco]]: [[PERSON|kemal]]'s cell if we need him before 2: [[PHONE_NUMBER|+90 532 418 77 05]]
+[09:31] [[?PERSON|jonas]]: fwiw the prod logs they sent include customer IPs like [[IP_ADDRESS|185.44.102.17]] and [[IP_ADDRESS|2a02:8108:1940:2b00::1f]] - flagging for the GDPR memo
+[09:32] [[?PERSON|priya.r]]: good catch. add to the Q list for [[?DATE_TIME|thursday]]
+[09:40] [[?PERSON|marco]]: also the founders want closing by [[DATE_TIME|june 30]]. lol

@@ -1,0 +1,16 @@
+FIRST NOTICE OF LOSS - AUTO
+Claim no. [[?ID_NUMBER|CLM-77-450912]] | Policy no. [[ID_NUMBER|PA-3318820-04]]
+Insurer: [[ORGANIZATION|Granite State Mutual Insurance Co.]]
+Reported: [[DATE_TIME|09/14/2025 08:31 AM]] by phone
+
+Insured driver: [[PERSON|Tyrone Jackson-Whitaker]], DOB [[DATE_TIME|04/22/1993]], DL [[US_DRIVER_LICENSE|NH 07TJW93041]]
+Address: [[LOCATION|58 Elm Street, Manchester, NH 03101]]
+Phone: [[PHONE_NUMBER|603-555-0175]]
+
+Narrative (as told by insured):
+"I was driving north on [[LOCATION|Route 3]] near [[LOCATION|Nashua]] around [[DATE_TIME|7:45]] when a white pickup merged into my lane. The other driver, a guy named [[PERSON|Kevin Doyle]], said his brakes failed. His insurance is with [[ORGANIZATION|Liberty Mutual]], policy [[ID_NUMBER|LM-55120938]]. My passenger [[PERSON|Maria]] hurt her wrist and went to [[ORGANIZATION|Southern NH Medical Center]]. A state trooper, [[PERSON|Officer Dana Kowalski]], took the report (report # [[ID_NUMBER|NHSP-25-118804]])."
+
+Vehicle: 2021 Honda Accord, VIN [[ID_NUMBER|1HGCV1F34MA012345]], plate [[ID_NUMBER|NH 4417KX]]
+Repair shop selected: [[ORGANIZATION|Queen City Collision]]
+
+Adjuster assigned: [[PERSON|Priyanka Desai]] ([[EMAIL_ADDRESS|pdesai@granitestatemutual.com]])

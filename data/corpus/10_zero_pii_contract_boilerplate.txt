@@ -1,0 +1,41 @@
+STANDARD TERMS AND CONDITIONS OF SUPPLY
+
+1. DEFINITIONS AND INTERPRETATION
+
+1.1 In these Conditions, the following definitions apply:
+
+"Business Day" means a day other than a Saturday, Sunday or public holiday when banks are open for business.
+
+"Conditions" means these terms and conditions as amended from time to time in accordance with clause 14.8.
+
+"Contract" means the contract between the Supplier and the Customer for the supply of Goods in accordance with these Conditions.
+
+"Force Majeure Event" has the meaning given to it in clause 11.
+
+"Goods" means the goods (or any part of them) set out in the Order.
+
+"Intellectual Property Rights" means patents, utility models, rights to inventions, copyright and neighbouring and related rights, trade marks and service marks, business names and domain names, rights in get-up and trade dress, goodwill and the right to sue for passing off.
+
+1.2 A reference to a statute or statutory provision is a reference to it as amended or re-enacted. A reference to legislation includes the Sale of Goods Act 1979, the Consumer Rights Act 2015 and the UK GDPR.
+
+2. BASIS OF CONTRACT
+
+2.1 The Order constitutes an offer by the Customer to purchase Goods in accordance with these Conditions. The Order shall only be deemed accepted when the Supplier issues a written acceptance, at which point the Contract shall come into existence.
+
+2.2 Any samples, drawings or advertising produced by the Supplier and any descriptions or illustrations contained in the Supplier's catalogues or brochures are produced for the sole purpose of giving an approximate idea of the Goods.
+
+3. PRICE AND PAYMENT
+
+3.1 The price of the Goods shall be the price set out in the Order. Prices are exclusive of VAT at the prevailing rate (currently 20%).
+
+3.2 The Customer shall pay each invoice within 30 days of the date of the invoice. Time for payment is of the essence. Interest on late payment accrues at 4% per annum above the [[?ORGANIZATION|Bank of England]] base rate.
+
+4. LIMITATION OF LIABILITY
+
+4.1 Nothing in these Conditions shall limit or exclude the Supplier's liability for death or personal injury caused by its negligence, or fraud or fraudulent misrepresentation.
+
+4.2 Subject to clause 4.1, the Supplier's total liability shall not exceed 125% of the price of the Goods. Software components (including Microsoft Excel templates, Python scripts and the [[?ORGANIZATION|Apple]] iOS companion app version 2.4.1) are supplied "as is".
+
+5. GOVERNING LAW
+
+This Contract shall be governed by the law of [[?LOCATION|England and Wales]].
