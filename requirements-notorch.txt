@@ -1,0 +1,7 @@
+# What the Sanctum sidecar would run with: no torch, no transformers, no gliner.
+presidio_analyzer==2.2.364
+spacy==3.8.16
+thinc==8.3.13
+onnxruntime==1.30.0
+tokenizers==0.23.2
+numpy==2.4.6

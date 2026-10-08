@@ -43,6 +43,8 @@ models/                   downloaded weights (git-ignored, ~13 GB)
 make            # venv (pinned requirements.txt) + spaCy models + ~13 GB of weights + run + report
 make report     # rebuild results/tables.md, leaderboard.csv, tradeoff.png from cached predictions
 make inspect CONFIG="presidio+kg_pii_base" THR=0.2   # misses / false positives for one config
+make parity     # torch-free ONNX loader (bench/gliner_onnx.py) vs the gliner library
+make run-notorch  # torch-free configs in a venv without torch (true sidecar RAM)
 make rerun      # force every config to run again (~10 min on an M-series Mac)
 ```
 
