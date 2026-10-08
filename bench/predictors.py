@@ -150,6 +150,29 @@ def gliner_predictor(repo_id: str, prompts: dict[str, str], threshold: float = F
     return predict
 
 
+def gliner_onnx_predictor(repo_id: str, prompts: dict[str, str], threshold: float = FLOOR,
+                          onnx_file: str = "onnx/model_quint8.onnx") -> Callable[[str], list[Span]]:
+    """Same as gliner_predictor on an ONNX file, but through bench/gliner_onnx.py:
+    onnxruntime + tokenizers + numpy, no PyTorch (what the Sanctum sidecar ships)."""
+    from gliner_onnx import GlinerOnnx
+
+    model = GlinerOnnx(MODELS_DIR / repo_id.replace("/", "__"), onnx_file, intra_op_threads=4)
+    labels = list(prompts)
+
+    def predict(text: str) -> list[Span]:
+        out: list[Span] = []
+        for off, chunk in chunks(text):
+            for r in model.predict_entities(chunk, labels, threshold=threshold, flat_ner=True):
+                etype = prompts.get(r.label.lower())
+                if etype:
+                    s, e = _trim(text, off + r.start, off + r.end)
+                    if e > s:
+                        out.append(_span(etype, s, e, r.score, text))
+        return out
+
+    return predict
+
+
 # ----------------------------------------------------------------------------
 # GLiNER2 (fastino)
 # ----------------------------------------------------------------------------
@@ -413,6 +436,7 @@ class Config:
     note: str = ""
     default_thr: float | None = 0.4  # model-card / Sanctum default; None = no model threshold
     weights: tuple[str, ...] = ()    # files counted as "weights on disk"; () = whole dir minus onnx/
+    torch_free: bool = False         # run without importing torch (peak RSS then excludes it)
 
 
 def _gl(repo, prompts=GLINER_GENERIC, onnx_file=None):
@@ -495,6 +519,17 @@ CONFIGS: list[Config] = [
     Config("presidio+kg_pii_base_onnx_q8",
            _hyb("en_core_web_sm", _gl("knowledgator/gliner-pii-base-v1.0", KG, "onnx/model_quint8.onnx")),
            "knowledgator/gliner-pii-base-v1.0", 166, "Apache-2.0", "hybrid", "uint8 ONNX, 197 MB", 0.3, weights=("onnx/model_quint8.onnx", "tokenizer.json", "*config.json")),
+    # --- the torch-free loader (bench/gliner_onnx.py) on the same ONNX file --------
+    Config("kg_pii_base_onnx_loader",
+           lambda: gliner_onnx_predictor("knowledgator/gliner-pii-base-v1.0", KG),
+           "knowledgator/gliner-pii-base-v1.0", 166, "Apache-2.0", "gliner",
+           "uint8 ONNX via onnxruntime + tokenizers, no torch", 0.3,
+           weights=("onnx/model_quint8.onnx", "tokenizer.json", "gliner_config.json"), torch_free=True),
+    Config("presidio+kg_pii_base_onnx_loader",
+           _hyb("en_core_web_sm", lambda: gliner_onnx_predictor("knowledgator/gliner-pii-base-v1.0", KG)),
+           "knowledgator/gliner-pii-base-v1.0", 166, "Apache-2.0", "hybrid",
+           "uint8 ONNX via onnxruntime + tokenizers, no torch", 0.3,
+           weights=("onnx/model_quint8.onnx", "tokenizer.json", "gliner_config.json"), torch_free=True),
     Config("presidio+gretel_bi_small", _hyb("en_core_web_sm", _gl("gretelai/gretel-gliner-bi-small-v1.0")),
            "gretelai/gretel-gliner-bi-small-v1.0", 194, "Apache-2.0", "hybrid"),
     Config("presidio+nvidia_gliner_pii", _hyb("en_core_web_sm", _gl("nvidia/gliner-PII")),

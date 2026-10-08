@@ -239,6 +239,49 @@ them.
    `en_core_web_lg` + propagation (55 misses vs 101, +430 MB, MIT). It is a
    strict improvement over `sm`.
 
+### 6.1 Option (b) tested: a torch-free loader (8 Oct 2026)
+
+[`bench/gliner_onnx.py`](bench/gliner_onnx.py) is that pre/post-processor:
+about 150 lines on `onnxruntime`, `tokenizers` and `numpy`. It mirrors
+gliner 0.2.29's span pipeline: whitespace word split, label prompt
+(`<<ENT>> label … <<SEP>>`), first-sub-token word mask, every span up to 12
+words, sigmoid, then greedy flat decoding.
+
+**Parity with the `gliner` library** on the same ONNX file
+(`make parity`, every chunk of both corpora, all 18 prompts, threshold 0.15):
+
+| | Result |
+|---|---|
+| Chunks with identical tokenisation | 65 of 66 |
+| Spans on those chunks | 909 from both, 909 identical |
+| Largest score difference | 6e-8 |
+
+The one differing chunk (Spanish settlement) contains "3º". The library uses
+the slow SentencePiece tokenizer, which maps "º" to `[UNK]`. `tokenizers`
+NFKC-normalises it to "o". Only spans near that character change.
+
+**End to end** (Presidio hybrid, threshold 0.2), scored like every other row:
+
+| Setup | Missed (hard, 487) | + propagate | Fixtures missed | Precision (+prop) |
+|---|---|---|---|---|
+| `gliner` library + ONNX | 36 | 22 | 0 | 0.814 |
+| **torch-free loader + ONNX** | **36** | **22** | **0** | 0.814 |
+
+**Footprint without PyTorch.** Measured in a clean venv with no torch
+installed (`make run-notorch`). spaCy imports torch whenever it is
+installed, so the main venv can't measure this.
+
+| Setup | Peak RSS | ms / 1k chars | Model load |
+|---|---|---|---|
+| Presidio + `en_core_web_sm` (shipped today) | 0.50 GB | 24 | 1.8 s |
+| Presidio + `gliner` library + ONNX (torch loaded) | 1.31 GB | 100 | 2.1 s |
+| **Presidio + torch-free loader + ONNX** | **0.98 GB** | **93** | **0.7 s** |
+
+The torch-free path needs only three files from the model repo:
+`onnx/model_quint8.onnx` (197 MB), `tokenizer.json` (8.6 MB) and
+`gliner_config.json`. There is no backbone lookup by Hub id, so point 4 above
+does not apply to it.
+
 ## 7. Method
 
 **Corpora.**

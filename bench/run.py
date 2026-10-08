@@ -68,13 +68,13 @@ def run_one(key: str) -> None:
     # keep that cache inside the repo too so every artifact is reviewable here.
     os.environ.setdefault("HF_HOME", str(ROOT / "models" / "_hf_cache"))
     os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
-    import torch
-    torch.set_num_threads(4)  # a fixed, laptop-like budget for latency numbers
-
     from corpus import CORPORA
     from predictors import CONFIG_BY_KEY, THRESHOLDS
 
     cfg = CONFIG_BY_KEY[key]
+    if not cfg.torch_free:
+        import torch
+        torch.set_num_threads(4)  # a fixed, laptop-like budget for latency numbers
     t0 = time.perf_counter()
     predict = cfg.build()
     load_s = time.perf_counter() - t0
@@ -103,6 +103,9 @@ def run_one(key: str) -> None:
             for thr in THRESHOLDS:
                 by_thr[str(thr)] = {n: [s for s in ps if s["score"] >= thr] for n, ps in raw.items()}
         out["corpora"][cname] = {"seconds": elapsed, "chars": chars, "by_thr": by_thr}
+    if cfg.torch_free:
+        # spaCy imports torch whenever it is installed: run these via `make run-notorch`
+        assert "torch" not in sys.modules, f"{key} is torch-free but torch got imported"
     rss = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
     out["peak_rss_mb"] = rss / (1e6 if sys.platform == "darwin" else 1e3)
     PREDS.mkdir(parents=True, exist_ok=True)

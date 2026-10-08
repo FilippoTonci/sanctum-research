@@ -2,6 +2,7 @@ docs/
 resources/
 .vscode/
 .venv/
+.venv-notorch/
 
 __pycache__/
 .mypy_cache/
