@@ -3,6 +3,7 @@
 #   make            venv + spaCy models + HF weights + run + report (~13 GB, ~15 min)
 #   make report     rebuild tables/chart from cached results/preds (seconds)
 #   make inspect CONFIG="presidio+kg_pii_base" THR=0.2
+#   make parity     torch-free ONNX loader vs the gliner library
 #
 # Weights land in ./models (git-ignored); delete a model's folder to reclaim space.
 
@@ -17,7 +18,7 @@ CONFIG  ?= presidio+kg_pii_base
 CORPUS  ?= hard
 THR     ?=
 
-.PHONY: all venv spacy-models models run rerun report score inspect clean-results clean-models clean
+.PHONY: all venv spacy-models models run rerun report score inspect parity run-notorch clean-results clean-models clean
 
 all: models run report
 
@@ -29,11 +30,19 @@ $(VENV)/.installed: requirements.txt
 
 venv: $(VENV)/.installed
 
+# pip sometimes reads 0 bytes from GitHub's release redirect and calls the wheel
+# "invalid"; curl follows it reliably, so fetch first and install the local file.
+WHEELS := models/_wheels
+$(WHEELS)/%.whl:
+	mkdir -p $(WHEELS)
+	m=$$(echo $* | cut -d- -f1); \
+	  curl -fsSL --retry 5 -o $@.part "$(SPACY_MODEL_URL)/$$m-$(SPACY_MODEL_VERSION)/$*.whl" && mv $@.part $@
+
 $(VENV)/.spacy-models: $(VENV)/.installed
 	for m in $(SPACY_MODELS); do \
 	  $(PY) -c "import $$m" 2>/dev/null && continue; \
-	  $(VENV)/bin/pip install -q --retries 5 \
-	    "$(SPACY_MODEL_URL)/$$m-$(SPACY_MODEL_VERSION)/$$m-$(SPACY_MODEL_VERSION)-py3-none-any.whl" || exit 1; \
+	  $(MAKE) -s $(WHEELS)/$$m-$(SPACY_MODEL_VERSION)-py3-none-any.whl || exit 1; \
+	  $(VENV)/bin/pip install -q $(WHEELS)/$$m-$(SPACY_MODEL_VERSION)-py3-none-any.whl || exit 1; \
 	done
 	touch $@
 
@@ -61,6 +70,23 @@ score: venv
 inspect: venv
 	$(PY) bench/inspect_errors.py "$(CONFIG)" $(CORPUS) $(THR)
 
+# Torch-free loader (bench/gliner_onnx.py) vs the gliner library on the same ONNX file
+parity: venv
+	$(PY) bench/check_onnx_parity.py
+
+# The torch-free configs in a venv with no torch, so peak RSS is what the sidecar sees
+NOTORCH := .venv-notorch
+$(NOTORCH)/.installed: requirements-notorch.txt
+	$(PYTHON) -m venv $(NOTORCH)
+	$(NOTORCH)/bin/pip install -q --upgrade pip
+	$(NOTORCH)/bin/pip install -q -r requirements-notorch.txt
+	$(MAKE) -s $(WHEELS)/en_core_web_sm-$(SPACY_MODEL_VERSION)-py3-none-any.whl
+	$(NOTORCH)/bin/pip install -q $(WHEELS)/en_core_web_sm-$(SPACY_MODEL_VERSION)-py3-none-any.whl
+	touch $@
+
+run-notorch: $(NOTORCH)/.installed
+	$(NOTORCH)/bin/python -I bench/run.py kg_pii_base_onnx_loader presidio+kg_pii_base_onnx_loader -f
+
 clean-results:
 	rm -f results/preds/*.json.gz
 
@@ -68,4 +94,4 @@ clean-models:
 	rm -rf models
 
 clean:
-	rm -rf $(VENV)
+	rm -rf $(VENV) $(NOTORCH)

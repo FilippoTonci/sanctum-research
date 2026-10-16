@@ -15,11 +15,14 @@
 | presidio+kg_pii_base | 0.92 | 0.93 | 0.86 | **0.86** | 0.84 | 41 | 0.2/0.25 | 0.94 | 111 | 675 | 2324 | Apache-2.0 |
 | presidio+kg_pii_base (sanctum prompts) +propagate | 0.93 | 0.88 | 0.84 | **0.85** | 0.83 | 32 | 0.2/0.25 | 0.89 | 109 | 675 | 2241 | Apache-2.0 |
 | kg_pii_base | 0.95 | 0.95 | 0.80 | **0.85** | 0.81 | 23 | 0.15/0.15 | 0.94 | 86 | 675 | 2129 | Apache-2.0 |
+| presidio+kg_pii_base_onnx_loader +propagate | 0.94 | 0.92 | 0.85 | **0.85** | 0.82 | 31 | 0.25/0.2 | 0.91 | 93 | 205 | 980 | Apache-2.0 |
 | presidio+kg_pii_base_onnx_q8 +propagate | 0.94 | 0.92 | 0.85 | **0.85** | 0.82 | 31 | 0.25/0.2 | 0.91 | 100 | 205 | 1309 | Apache-2.0 |
 | presidio+kg_pii_base (sanctum prompts) | 0.93 | 0.89 | 0.84 | **0.85** | 0.82 | 34 | 0.15/0.25 | 0.89 | 109 | 675 | 2241 | Apache-2.0 |
 | presidio+kg_pii_base_onnx_q8 | 0.93 | 0.91 | 0.84 | **0.85** | 0.82 | 36 | 0.2/0.2 | 0.91 | 100 | 205 | 1309 | Apache-2.0 |
 | presidio+gliner_multi_pii | 0.91 | 0.94 | 0.87 | **0.85** | 0.84 | 46 | 0.15/0.15 | 0.85 | 169 | 1156 | 2929 | Apache-2.0 |
+| presidio+kg_pii_base_onnx_loader | 0.93 | 0.92 | 0.84 | **0.85** | 0.82 | 36 | 0.2/0.2 | 0.91 | 93 | 205 | 980 | Apache-2.0 |
 | presidio+kg_pii_small +propagate | 0.96 | 0.92 | 0.78 | **0.84** | 0.79 | 20 | 0.3/0.3 | 0.81 | 110 | 330 | 1897 | Apache-2.0 |
+| kg_pii_base_onnx_loader | 0.93 | 0.91 | 0.84 | **0.84** | 0.81 | 36 | 0.2/0.2 | 0.86 | 68 | 205 | 844 | Apache-2.0 |
 | gliner_medium_v21 | 0.93 | 0.91 | 0.80 | **0.83** | 0.79 | 34 | 0.15/0.15 | 0.85 | 122 | 781 | 2056 | Apache-2.0 |
 | presidio+trf +propagate | 0.90 | 0.79 | 0.84 | **0.83** | 0.81 | 50 | n/a | 0.81 | 75 | 501 | 3067 | MIT |
 | presidio+trf | 0.89 | 0.78 | 0.85 | **0.83** | 0.82 | 55 | n/a | 0.81 | 75 | 501 | 3067 | MIT |
@@ -62,6 +65,7 @@
 | fastino_gliner2_pii | 0.5 | 0.86 | 0.91 | 0.87 | 69 |
 | presidio+gliner_medium (shipped Pro) +propagate | 0.4 | 0.91 | 0.87 | 0.86 | 46 |
 | presidio+kg_pii_base +propagate | 0.3 | 0.92 | 0.88 | 0.86 | 37 |
+| presidio+kg_pii_base_onnx_loader +propagate | 0.3 | 0.89 | 0.91 | 0.85 | 53 |
 | presidio+kg_pii_base_onnx_q8 +propagate | 0.3 | 0.89 | 0.91 | 0.85 | 54 |
 | presidio+gliner_multi_pii +propagate | 0.4 | 0.89 | 0.90 | 0.85 | 56 |
 | presidio+gliner_medium (shipped Pro) | 0.4 | 0.87 | 0.89 | 0.85 | 63 |
@@ -70,10 +74,12 @@
 | presidio+kg_pii_base (sanctum prompts) | 0.3 | 0.86 | 0.92 | 0.84 | 66 |
 | kg_pii_base | 0.3 | 0.87 | 0.90 | 0.84 | 62 |
 | presidio+gliner_multi_pii | 0.4 | 0.84 | 0.92 | 0.84 | 80 |
+| presidio+kg_pii_base_onnx_loader | 0.3 | 0.84 | 0.92 | 0.83 | 77 |
 | presidio+kg_pii_base_onnx_q8 | 0.3 | 0.84 | 0.92 | 0.83 | 78 |
 | e3jsi_multi_pii_domains | 0.4 | 0.75 | 0.94 | 0.82 | 121 |
 | presidio+trf | none | 0.89 | 0.85 | 0.82 | 55 |
 | bardsai_eu_pii | 0.4 | 0.83 | 0.95 | 0.82 | 83 |
+| kg_pii_base_onnx_loader | 0.3 | 0.81 | 0.92 | 0.81 | 93 |
 | presidio+trf +propagate | none | 0.90 | 0.84 | 0.81 | 50 |
 | gliner_medium_v21 | 0.4 | 0.81 | 0.88 | 0.80 | 91 |
 | gliner_multi_pii_v1 | 0.4 | 0.76 | 0.91 | 0.79 | 116 |
@@ -119,11 +125,14 @@
 | presidio+kg_pii_base | 0.88 | 0.88 | 0.86 | 0.88 | 0.65 | 1.00 |
 | presidio+kg_pii_base (sanctum prompts) +propagate | 0.97 | 0.92 | 0.71 | 0.85 | 0.55 | 1.00 |
 | kg_pii_base | 0.90 | 0.90 | 0.86 | 0.92 | 0.72 | 0.95 |
+| presidio+kg_pii_base_onnx_loader +propagate | 0.93 | 0.89 | 0.83 | 0.87 | 0.62 | 0.95 |
 | presidio+kg_pii_base_onnx_q8 +propagate | 0.93 | 0.89 | 0.83 | 0.87 | 0.62 | 0.95 |
 | presidio+kg_pii_base (sanctum prompts) | 0.93 | 0.92 | 0.75 | 0.85 | 0.57 | 1.00 |
 | presidio+kg_pii_base_onnx_q8 | 0.88 | 0.90 | 0.85 | 0.89 | 0.65 | 0.95 |
 | presidio+gliner_multi_pii | 0.87 | 0.88 | 0.93 | 0.84 | 0.42 | 1.00 |
+| presidio+kg_pii_base_onnx_loader | 0.88 | 0.90 | 0.85 | 0.89 | 0.65 | 0.95 |
 | presidio+kg_pii_small +propagate | 0.92 | 0.75 | 0.92 | 0.92 | 0.72 | 0.68 |
+| kg_pii_base_onnx_loader | 0.88 | 0.90 | 0.85 | 0.88 | 0.65 | 0.95 |
 | gliner_medium_v21 | 0.95 | 0.92 | 1.00 | 0.92 | 0.35 | 0.68 |
 | presidio+trf +propagate | 0.90 | 0.82 | 0.80 | 0.98 | 0.28 | 0.58 |
 | presidio+trf | 0.88 | 0.82 | 0.80 | 0.98 | 0.28 | 0.58 |
@@ -171,11 +180,14 @@
 | presidio+kg_pii_base | 0.98 | 0.62 | 0.84 | 0.93 | 0.74 | 0.49 |
 | presidio+kg_pii_base (sanctum prompts) +propagate | 0.92 | 0.55 | 0.84 | 0.96 | 0.85 | 0.47 |
 | kg_pii_base | 0.95 | 0.50 | 0.82 | 0.92 | 0.69 | 0.38 |
+| presidio+kg_pii_base_onnx_loader +propagate | 0.97 | 0.55 | 0.87 | 0.90 | 0.66 | 0.38 |
 | presidio+kg_pii_base_onnx_q8 +propagate | 0.97 | 0.56 | 0.86 | 0.90 | 0.66 | 0.38 |
 | presidio+kg_pii_base (sanctum prompts) | 0.89 | 0.58 | 0.81 | 0.96 | 0.85 | 0.45 |
 | presidio+kg_pii_base_onnx_q8 | 0.96 | 0.59 | 0.86 | 0.89 | 0.65 | 0.37 |
 | presidio+gliner_multi_pii | 0.89 | 0.68 | 0.89 | 0.91 | 0.85 | 0.59 |
+| presidio+kg_pii_base_onnx_loader | 0.96 | 0.58 | 0.86 | 0.89 | 0.65 | 0.37 |
 | presidio+kg_pii_small +propagate | 0.85 | 0.52 | 0.89 | 0.82 | 0.54 | 0.31 |
+| kg_pii_base_onnx_loader | 0.96 | 0.57 | 0.86 | 0.89 | 0.65 | 0.36 |
 | gliner_medium_v21 | 0.72 | 0.52 | 0.88 | 0.92 | 0.58 | 0.59 |
 | presidio+trf +propagate | 0.96 | 0.51 | 0.90 | 0.67 | 1.00 | 0.85 |
 | presidio+trf | 0.98 | 0.57 | 0.90 | 0.67 | 1.00 | 0.85 |
