@@ -73,3 +73,7 @@ htmlcov/
 
 # Downloaded model weights (kept local, see REPORT.md)
 models/
+
+# bench/real_text.py: public datasets fetched on demand, and engine runs over them
+data/real/
+results/real/
