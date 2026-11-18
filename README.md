@@ -26,6 +26,7 @@ bench/
   report_tables.py        cross-validated leaderboard + chart -> results/
   postprocess.py          document-level name propagation experiment
   inspect_errors.py       print misses / false positives for one config
+  real_text.py            the real sanctum engine on CoNLL-2003 / CUAD / hard
 data/
   corpus/                 22 hand-annotated hard documents (inline markup)
   sanctum_fixtures/       copy of sanctum/tests/fixtures (12 Faker docs)
@@ -35,6 +36,7 @@ results/
   tables.md               markdown tables used in REPORT.md
   tradeoff.png            accuracy vs size chart
 models/                   downloaded weights (git-ignored, ~13 GB)
+data/real/, results/real/ real_text.py datasets and engine runs (git-ignored)
 ```
 
 ## Reproduce
@@ -46,13 +48,18 @@ make inspect CONFIG="presidio+kg_pii_base" THR=0.2   # misses / false positives 
 make parity     # torch-free ONNX loader (bench/gliner_onnx.py) vs the gliner library
 make run-notorch  # torch-free configs in a venv without torch (true sidecar RAM)
 make rerun      # force every config to run again (~10 min on an M-series Mac)
+make real       # the real sanctum engine on real text (~2 min; needs ../sanctum)
 ```
 
 The cached predictions in `results/preds/` are committed, so `make report`
 works without downloading any weights. Override the interpreter with
 `make PYTHON=/path/to/python3.12`.
 
-Nothing here imports Sanctum. The production Presidio setup
+Except `bench/real_text.py`, nothing here imports Sanctum. That script runs
+the engine itself from a sanctum checkout (`make real`, with that checkout's
+interpreter) on public annotated text: CoNLL-2003 news and CUAD contracts,
+fetched into `data/real/`. Use it to vet a detection change or a threshold
+before it ships. Everywhere else, the production Presidio setup
 (`sanctum/cli/commands.py::_create_engine`) is reproduced in
 `bench/predictors.py::presidio_predictor`, so the numbers match what the CLI
 and desktop sidecar would produce.

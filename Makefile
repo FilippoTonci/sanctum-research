@@ -4,6 +4,7 @@
 #   make report     rebuild tables/chart from cached results/preds (seconds)
 #   make inspect CONFIG="presidio+kg_pii_base" THR=0.2
 #   make parity     torch-free ONNX loader vs the gliner library
+#   make real       the real sanctum engine on CoNLL-2003 / CUAD / hard (needs ../sanctum)
 #
 # Weights land in ./models (git-ignored); delete a model's folder to reclaim space.
 
@@ -17,8 +18,9 @@ SPACY_MODEL_URL := https://github.com/explosion/spacy-models/releases/download
 CONFIG  ?= presidio+kg_pii_base
 CORPUS  ?= hard
 THR     ?=
+SANCTUM ?= ../sanctum
 
-.PHONY: all venv spacy-models models run rerun report score inspect parity run-notorch clean-results clean-models clean
+.PHONY: all venv spacy-models models run rerun report score inspect parity real run-notorch clean-results clean-models clean
 
 all: models run report
 
@@ -73,6 +75,13 @@ inspect: venv
 # Torch-free loader (bench/gliner_onnx.py) vs the gliner library on the same ONNX file
 parity: venv
 	$(PY) bench/check_onnx_parity.py
+
+# The real engine on real text (bench/real_text.py). Runs with the sanctum
+# checkout's own interpreter, so it scores exactly what the app ships.
+real: venv
+	@test -f data/real/dataset/test.json || $(PY) bench/real_text.py fetch
+	for c in hard conll cuad; do $(SANCTUM)/.venv/bin/python bench/real_text.py run $$c || exit 1; done
+	$(PY) bench/real_text.py score
 
 # The torch-free configs in a venv with no torch, so peak RSS is what the sidecar sees
 NOTORCH := .venv-notorch
